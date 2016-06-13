@@ -82,7 +82,7 @@
 
   <script src="./js/TextGeometry.js"></script>
   <script src="./js/FontUtils.js"></script>
-  <script src="./js/helvetiker_regular.typeface.js"></script>
+  <script src="./js/regular.typeface.js"></script>
   <script src="./js/animation.js"></script>
 
   <script>

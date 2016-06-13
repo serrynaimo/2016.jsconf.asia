@@ -13,6 +13,34 @@ init();
 setTimeout(animate, 1000);
 
 
+function makeText( text, yOffset ) {
+
+	var text = new THREE.TextGeometry( text, {
+		size: 24,
+		height: 0,
+		curveSegments: 8,
+		font: "Doppio One",
+		bevelEnabled: false
+	});
+
+	text.computeBoundingBox();
+
+	var mesh = new THREE.Mesh( text, new THREE.MeshBasicMaterial( { color: 0xffffff } ) );
+
+	mesh.position.x = 20;
+	mesh.position.y = yOffset;
+	mesh.position.z = 1;
+
+	mesh.rotation.x = 0;
+	mesh.rotation.y = Math.PI * 2;
+
+	mesh.castShadow = false;
+	mesh.receiveShadow = true;
+
+	return mesh;
+
+}
+
 function createBox (width, depth, color, xOffset) {
 	var geometry = new THREE.BoxGeometry( width, 500, depth );
 	var material = new THREE.MeshPhongMaterial( { color: color, specular: 0x444444, shininess: 1 } );
@@ -96,6 +124,11 @@ function init() {
 	scene.add( letterJ )
 	var letterS = createShape(transformSVGPath(svgS), 0xf8f8f8, 0, 250, 1, 180 * Math.PI / 180, 0, 0, 0.8)
 	scene.add( letterS )
+
+	var date = makeText( '25+26 NOV 2016', 200 );
+	scene.add( date )
+	var location = makeText( 'SINGAPORE', 156 );
+	scene.add( location )
 
 
 	start = Date.now();
@@ -203,15 +236,14 @@ function createShape( shape, color, x, y, z, rx, ry, rz, s ) {
   var material = new THREE.MeshBasicMaterial({
     color: color, 
     side: THREE.DoubleSide,
-    shininess: 0,
-    specular: 0x444444,
-    overdraw: true
+    overdraw: false
   });
   
   var mesh = new THREE.Mesh( geometry, material );
   mesh.position.set( x, y, z );
   mesh.rotation.set( rx, ry, rz );
   mesh.scale.set( s, s, s );
+  mesh.receiveShadow = true;
 
   return mesh;
 }
