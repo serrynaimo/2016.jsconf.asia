@@ -38,7 +38,7 @@
       <p>
         <span style="color: #fff">5 years of Southeast Asia's largest web developer conference.</span>
         <br/><br/>
-        Ticket Sales start in<br/>
+        Ticket sales start in<br/>
         <span id="countdown"></span>
       </p>
       <div>
@@ -61,7 +61,7 @@
     </p>
     <p>
       <br/>
-      JSConf.Asia 2016 Singapore is part of DevFest.Asia,<br/>Asia’s community organized web developer festival.<br/><br/><br/><br/><br/>
+      JSConf.Asia 2016 Singapore is part of DevFest.Asia,<br/>Southeast Asia’s community organized<br/>web developer festival.<br/><br/><br/><br/><br/>
       
 
       <a href="http://jsconf.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="logo" viewBox="0 0 630 630">
