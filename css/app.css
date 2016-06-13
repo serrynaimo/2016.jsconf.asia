@@ -20,7 +20,7 @@ body {
 
 
 #subscribeForm {
-  margin: 120px auto 100px;
+  margin: 80px auto;
 	width: 500px;
 	height: 40px;
 	display: block;
@@ -221,7 +221,7 @@ a.skip:hover {
 }
 
 #about a.button:after {
-  content: "SUBMIT YOUR TALK PROPOSAL";
+  content: "SUBMIT A TALK PROPOSAL";
   z-index: 7;
   padding: 10px 30px;
   color: #fff;
@@ -254,6 +254,10 @@ a.skip:hover {
 }
 #about a.button:hover:after {
   color: #000;
+}
+
+#countdown {
+  color: #fff;
 }
 
 
@@ -469,7 +473,13 @@ a.skip:hover {
 
 
 #footer {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #888;
 }
 
 #footer p {

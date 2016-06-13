@@ -36,10 +36,13 @@
 
     <section id="about">
       <p>
-        5 years of Southeast Asia's largest web developer conference.
+        <span style="color: #fff">5 years of Southeast Asia's largest web developer conference.</span>
+        <br/><br/>
+        Ticket Sales start in<br/>
+        <span id="countdown"></span>
       </p>
       <div>
-        <a href="https://jsconfasia.wufoo.com/forms/cssconf-and-jsconfasia" class="button">Submit your talk proposal</a><br/>
+        <a href="https://jsconfasia.wufoo.com/forms/cssconf-and-jsconfasia" class="button">Submit a talk proposal</a><br/>
         <!-- <a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshGpDJn60AwbJ6xegSHe_cDh" class="hint">Watch our videos</a> -->
       </div>
     </section>
@@ -58,13 +61,24 @@
     </p>
     <p>
       <br/>
-      JSConf.Asia 2016 Singapore is part of DevFest.Asia,<br/>Asia’s community organized web developer festival.<br/><br/><br/><br/>
+      JSConf.Asia 2016 Singapore is part of DevFest.Asia,<br/>Asia’s community organized web developer festival.<br/><br/><br/><br/><br/>
+      
+
+      <a href="http://jsconf.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="logo" viewBox="0 0 630 630">
+      <g>
+        <rect id="background" x="0" y="0" width="630" height="630" fill="none" />
+        <path id="j" fill="#888" d="m 165.65,526.47375 48.2125,-29.1775 C 223.16375,513.7875 231.625,527.74 251.92,527.74 c 19.45375,0 31.71875,-7.60975 31.71875,-37.21 l 0,-201.3 59.20375,0 0,202.1375 c 0,61.32 -35.94375,89.23125 -88.385,89.23125 -47.36125,0 -74.8525,-24.52875 -88.8075,-54.13" />
+        <path id="s" fill="#888" d="m 375,520.13 48.20625,-27.91125 c 12.69,20.72375 29.1825,35.9475 58.36125,35.9475 24.53125,0 40.17375,-12.26475 40.17375,-29.18125 0,-20.29875 -16.06875,-27.48875 -43.135,-39.32625 l -14.7975,-6.3475 c -42.715,-18.18125 -71.05,-41.0175 -71.05,-89.2275 0,-44.40375 33.83125,-78.2375 86.695,-78.2375 37.6375,0 64.7025,13.11125 84.15375,47.36625 l -46.09625,29.60125 c -10.15,-18.1825 -21.1425,-25.37125 -38.0575,-25.37125 -17.33875,0 -28.335,10.995 -28.335,25.37125 0,17.7625 10.99625,24.9525 36.3675,35.94875 l 14.8,6.3425 c 50.325,21.56875 78.66,43.5575 78.66,93.03375 0,53.2875 -41.86625,82.465 -98.11,82.465 -54.97625,0 -90.5,-26.2175 -107.83625,-60.47375" />
+      </g>
+      </svg></a><br/><br/> 
+
+
       Check out our past conferences:<br/><a href="https://2015.jsconf.asia" target="_blank">2015</a>
        - <a href="https://2014.jsconf.asia" target="_blank">2014</a>
        - <a href="https://2013.jsconf.asia" target="_blank">2013</a>
        - <a href="https://2012.jsconf.asia" target="_blank">2012</a><br/><br/>
 
-      <a href="http://jsconf.com">JSConf around the world</a><br/><br/>
+
       <br/><br/><br/>
       A Nerdherd Pte. Ltd. event<br/><br/>
       <a href="https://2015.devfest.asia/terms-and-conditions.html">Terms &amp; Conditions</a><br/>
@@ -95,7 +109,7 @@
     ga('send', 'pageview');
 
 
-   // CountDownTimer('Wed, 20 Jun 2016 14:00:00 +0800', 'countdown');
+   CountDownTimer('Fri, 22 Jun 2016 14:00:00 +0800', 'countdown');
 
     function CountDownTimer(dt, id)
     {
@@ -122,7 +136,7 @@
                 return;
             }
             var days = Math.floor(distance / _day);
-            var hours = days * 24 + Math.floor((distance % _day) / _hour);
+            var hours = Math.floor((distance % _day) / _hour);
             var minutes = Math.floor((distance % _hour) / _minute);
             var seconds = Math.floor((distance % _minute) / _second);
 
@@ -132,9 +146,8 @@
           if(minutes < 10)
             minutes = "0" + minutes;
 
-            document.getElementById(id).innerHTML = hours + ':';
-            document.getElementById(id).innerHTML += minutes + ':';
-            document.getElementById(id).innerHTML += seconds;
+            document.getElementById(id).innerHTML = (days > 0) ? days + ' days ' : ''
+            document.getElementById(id).innerHTML += hours + ':' + minutes + ':' + seconds;
         }
 
         timer = setInterval(showRemaining, 1000);
