@@ -21,8 +21,8 @@
 	<?php } ?>
 	<meta property="og:title" content="JSConf.Asia - 25+26 Nov 2016, Singapore"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="//2016.jsconf.asia/"/>
-	<meta property="og:image" content="//2016.jsconf.asia/assets/og_jsconfasia.png"/>
+	<meta property="og:url" content="https://2016.jsconf.asia/"/>
+	<meta property="og:image" content="https://2016.jsconf.asia/assets/og_jsconfasia.png"/>
 	<meta property="og:site_name" content="JSConf.Asia"/>
 	<meta property="og:description" content="5 years of Southeast Asia's largest web developer conference. Spread the word. Follow us on Twitter @jsconfasia"/>
 	<meta name="title" content="JSConf.Asia - 25+26 Nov 2016, Singapore"/>
