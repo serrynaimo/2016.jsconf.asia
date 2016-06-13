@@ -1,0 +1,517 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  overflow-x: hidden;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  position: relative;
+}
+
+
+#intro {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 5;
+}
+
+
+#subscribeForm {
+  margin: 120px auto 100px;
+	width: 500px;
+	height: 40px;
+	display: block;
+  text-align: center;
+  -webkit-perspective: 500;
+  -moz-perspective: 500;
+  perspective: 500;
+}
+
+#subscribeForm .input {
+  -webkit-transform: translateZ(-20px);
+  -webkit-transition: all .2s ease-out;
+  -moz-transform: translateZ(-20px);
+  -moz-transition: all .2s ease-out;
+  transform: translateZ(-20px);
+  transition: all .2s ease-out;
+  opacity: .7;
+}
+
+#subscribeForm.hovered .input, #subscribeForm.selected .input, #subscribeForm.load .input, #subscribeForm.failure .input {
+  -webkit-transform: translateZ(-1px) translateY(0);
+  -moz-transform: translateZ(-1px) translateY(0);
+  transform: translateZ(-1px) translateY(0);
+  opacity: 1;
+}
+
+#subscribeForm.load .input, #subscribeForm.success .input {
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px);
+  opacity: 0;
+}
+
+
+#subscribeForm .input input {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 20px;
+  padding: 0 0 0 12px;
+  font-family: 'Doppio One';
+  border: 0;
+  outline: 0;
+  width: 204px;
+  height: 40px;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid #333;
+  color: #999;
+}
+
+#subscribeForm .input input[type=email] {
+  padding: 0 12px 0 0;
+  margin-left: -7px;
+}
+
+#subscribeForm .input input[type=submit] {
+  display: block;
+  visibility: hidden;
+}
+
+::-webkit-input-placeholder {
+  font-size: .8em;
+  color: #888;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-size: .8em;
+  color: #888;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  font-size: .8em;
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  font-size: .8em;
+  color: #888;
+}
+
+
+#subscribeForm .msg {
+	position: absolute;
+	top: 60px;
+	width: 100%;
+	text-align: center;
+	color: #777;
+	font-size: 1em;
+  opacity: 0;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+#subscribeForm .msg span {
+	display: block;
+}
+
+#subscribeForm.failure .msg {
+    opacity: 1;
+}
+
+a.skip {
+  position: absolute;
+  z-index: 30;
+  bottom: 5%;
+  left: 50%;
+  width: 200px;
+  margin: 0 -100px;
+  text-align: center;
+  color: #444;
+  text-decoration: none;
+  display: block;
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+}
+a.skip:hover {
+  color: #888;
+}
+
+
+.links a {
+  font-size: 0.8em;
+  color: #333;
+  font-weight: 400;
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.links a:hover {
+    color: #888;
+}
+
+.links a > img {
+  opacity: .45;
+  transition: opacity .2s linear;
+  position: relative;
+  width: 110px;
+}
+
+.links a:hover > img {
+  opacity: .6;
+}
+
+
+
+#body {
+  position: relative;
+  z-index: 10;
+}
+
+
+#body h2, #body h3 {
+  color: #56AAEB;
+}
+
+
+#body > section {
+  min-width: 450px;
+  margin: 0 auto 100px;
+}
+
+#about {
+  margin-bottom: 300px;
+  text-align: center;
+}
+
+#about p {
+  width: 420px;
+  color: #aaa;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+  margin: 120px auto 40px;
+  font-weight: 200;
+}
+
+#about a.hint {
+  display: inline-block;
+  color: #444;
+  font-size: 0.75em;
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+#about a.button {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px 30px;
+  background: #256BC4;
+  color: #256BC4;
+  font-family: 'Doppio One';
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+#about a.button:after {
+  content: "SUBMIT YOUR TALK PROPOSAL";
+  z-index: 7;
+  padding: 10px 30px;
+  color: #fff;
+  font-family: 'Doppio One';
+  text-transform: uppercase;
+  font-size: 1em;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#about a.button:before {
+  content: "";
+  position: absolute;
+  background: #FFED2A;
+  bottom: 0;
+  top: 0;
+  left: 100%;
+  right: 0;
+  z-index: 6;
+  -webkit-transition: left 0.07s ease-in;
+  -moz-transition: left 0.07s ease-in;
+  transition: left 0.07s ease-in;
+}
+
+#about a.button:hover:before {
+  left: 0;
+}
+#about a.button:hover:after {
+  color: #000;
+}
+
+
+#location > div {
+  width: 480px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#location > div > img {
+  width: 480px;
+  opacity: .35;
+}
+
+#location #reddot {
+  position: absolute;
+  top: 75px;
+  left: 248px;
+  width: 150px;
+  text-align: center;
+}
+
+#location #reddot:after {
+  position: absolute;
+  content: "";
+  bottom: -5px;
+  left: -10px;
+  padding: 3px;
+  border: 2px solid #fff;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+#location #reddot:hover:after {
+  position: absolute;
+  content: "";
+  bottom: -7px;
+  left: -12px;
+  padding: 5px;
+  border: 2px solid #fff;
+}
+
+#location #reddot > img {
+  width: 100px;
+}
+
+#speakers > .day + .day {
+  margin-bottom: 120px;
+}
+
+#speakers .day {
+    margin-bottom: 50px;
+    position: relative;
+    float: none;
+}
+
+#speakers .day > h4 {
+    color: #fff;
+    font-size: .9em;
+    padding: 15px;
+    margin: 0 auto -8px;
+    width: 160px;
+    position: relative;
+    left: -165px;
+    text-align: center;
+}
+
+
+#speakers .speaker {
+    margin: 20px auto 0;
+    width: 480px;
+    position: relative;
+    clear: left;
+    min-height: 65px;
+}
+
+#speakers .speaker {
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+
+#speakers .speaker:before {
+    content: "";
+    position: absolute;
+    left: 76px;
+    top: -11px;
+    bottom: -11px;
+    background: #fff;
+    z-index: 10;
+    width: 1px;
+}
+
+#speakers .speaker > span:not(.img):after {
+    content: "";
+    position: absolute;
+    z-index: 13;
+    left: 76px;
+    top: 13px;
+    padding: 5px;
+    margin: -6px;
+    background: #000;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    transition: all .1s ease-out;
+}
+
+#speakers .speaker > span:not(.img) {
+    float: left;
+    width: 60px;
+    margin: 4px 32px 0 0;
+    color: #fff;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+#speakers .speaker > a {
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin-right: 16px;
+}
+
+
+#speakers .speaker > img {
+    float: left;
+    margin-top: 0;
+    height: 70px;
+    width: 70px;
+    margin-right: 13px;
+}
+
+#speakers .speaker > h3 {
+      margin-top: 2px;
+      font-size: 1.1em;
+      width: 460px;
+      position: relative;
+}
+
+#speakers .speaker > h4 {
+    margin: -4px 0 0 179px;
+    text-align: left;
+    font-weight: 200;
+    color: #fff;
+    font-size: .9em;
+}
+
+#speakers .speaker.break > h4 {
+    margin-left: 94px;
+}
+
+#speakers .speaker:not(.break):hover > span:not(.img):after,
+#speakers .speaker.open:not(.break) > span:not(.img):after {
+    background: #FFED2A;
+}
+
+#speakers .speaker > p a {
+    color: #fff;
+}
+
+#speakers .speaker > p {
+    clear: left;
+    width: 380px;
+    padding-top: 6px;
+    margin-left: 93px;
+    font-size: .9em;
+    line-height: 1.2em;
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity .3s ease-out;
+}
+
+#speakers .speaker > p + p {
+    font-style: italic;
+}
+
+#speakers .speaker.open > p {
+    opacity: 1;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#speakers .speaker img {
+    height: 70px;
+    width: 70px;
+  box-shadow: -1px 0 3px rgba(0,0,0,.2);
+}
+
+#speakers .speaker h4 a {
+    font-size: .9em;
+    color: #9AE0FF;
+    text-transform: none;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+#speakers .speaker h3 a:hover {
+    color: #fff;
+}
+
+#speakers .speaker.break {
+    cursor: default;
+}
+
+#sponsors {
+  clear: both;
+  text-align: center;
+}
+
+
+#footer {
+  margin-bottom: 200px;
+}
+
+#footer p {
+  text-align: center;
+  width: 480px;
+  color: #888;
+  font-size: 0.9em;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  font-weight: 200;
+}
+
+#footer p a {
+  color: #888;
+}
+
+#footer p a:hover {
+  color: #bbb;
+}
+
+
+@media all and (min-width: 1020px) {
+    #body > section {
+        width: 1020px;
+        margin: 0 auto 100px;
+    }
+
+    #speakers .day {
+      float: left;
+    }
+
+    #speakers .speaker {
+        margin: 16px 0 0 20px;
+        float: left;
+    }
+
+    #speakers .day > h4 {
+        margin: 0 0 -5px 0;
+        left: auto;
+    }
+
+}
+
+
