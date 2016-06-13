@@ -146,7 +146,7 @@ function init() {
 	renderer.shadowMap.enabled = false;
 	renderer.shadowMap.type = THREE.PCFShadowMap;
 
-	window.addEventListener('mousemove', onMouseMove)
+  window.addEventListener('mousemove', onMouseMove)
 	intro = document.getElementById('intro')
 	intro.appendChild( renderer.domElement );
 	body = document.getElementById('body')
@@ -162,10 +162,12 @@ function onMouseMove (event) {
 
 function onWindowResize () {
 
-	camera.aspect = window.innerWidth / window.innerHeight;
-	camera.updateProjectionMatrix();
+	resizeT = setTimeout(function () {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
 
-	renderer.setSize( window.innerWidth, window.innerHeight );
+  	renderer.setSize( window.innerWidth, window.innerHeight );
+  }, 300)
 
 }
 

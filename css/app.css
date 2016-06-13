@@ -5,9 +5,7 @@ body {
   width: 100%;
   height: 100%;
   background: #111;
-  overflow-x: hidden;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
-  position: relative;
 }
 
 
@@ -261,219 +259,9 @@ a.skip:hover {
 }
 
 
-#location > div {
-  width: 480px;
-  margin: 0 auto;
-  position: relative;
-}
-
-#location > div > img {
-  width: 480px;
-  opacity: .35;
-}
-
-#location #reddot {
-  position: absolute;
-  top: 75px;
-  left: 248px;
-  width: 150px;
-  text-align: center;
-}
-
-#location #reddot:after {
-  position: absolute;
-  content: "";
-  bottom: -5px;
-  left: -10px;
-  padding: 3px;
-  border: 2px solid #fff;
-  -webkit-transition: all .1s linear;
-  -moz-transition: all .1s linear;
-  transition: all .1s linear;
-}
-
-#location #reddot:hover:after {
-  position: absolute;
-  content: "";
-  bottom: -7px;
-  left: -12px;
-  padding: 5px;
-  border: 2px solid #fff;
-}
-
-#location #reddot > img {
-  width: 100px;
-}
-
-#speakers > .day + .day {
-  margin-bottom: 120px;
-}
-
-#speakers .day {
-    margin-bottom: 50px;
-    position: relative;
-    float: none;
-}
-
-#speakers .day > h4 {
-    color: #fff;
-    font-size: .9em;
-    padding: 15px;
-    margin: 0 auto -8px;
-    width: 160px;
-    position: relative;
-    left: -165px;
-    text-align: center;
-}
-
-
-#speakers .speaker {
-    margin: 20px auto 0;
-    width: 480px;
-    position: relative;
-    clear: left;
-    min-height: 65px;
-}
-
-#speakers .speaker {
-    transition: all .2s ease-in;
-    cursor: pointer;
-}
-
-
-#speakers .speaker:before {
-    content: "";
-    position: absolute;
-    left: 76px;
-    top: -11px;
-    bottom: -11px;
-    background: #fff;
-    z-index: 10;
-    width: 1px;
-}
-
-#speakers .speaker > span:not(.img):after {
-    content: "";
-    position: absolute;
-    z-index: 13;
-    left: 76px;
-    top: 13px;
-    padding: 5px;
-    margin: -6px;
-    background: #000;
-    border-radius: 6px;
-    border: 1px solid #fff;
-    transition: all .1s ease-out;
-}
-
-#speakers .speaker > span:not(.img) {
-    float: left;
-    width: 60px;
-    margin: 4px 32px 0 0;
-    color: #fff;
-    font-size: 0.8em;
-    text-align: right;
-}
-
-#speakers .speaker > a {
-    float: left;
-    height: 70px;
-    width: 70px;
-    margin-right: 16px;
-}
-
-
-#speakers .speaker > img {
-    float: left;
-    margin-top: 0;
-    height: 70px;
-    width: 70px;
-    margin-right: 13px;
-}
-
-#speakers .speaker > h3 {
-      margin-top: 2px;
-      font-size: 1.1em;
-      width: 460px;
-      position: relative;
-}
-
-#speakers .speaker > h4 {
-    margin: -4px 0 0 179px;
-    text-align: left;
-    font-weight: 200;
-    color: #fff;
-    font-size: .9em;
-}
-
-#speakers .speaker.break > h4 {
-    margin-left: 94px;
-}
-
-#speakers .speaker:not(.break):hover > span:not(.img):after,
-#speakers .speaker.open:not(.break) > span:not(.img):after {
-    background: #FFED2A;
-}
-
-#speakers .speaker > p a {
-    color: #fff;
-}
-
-#speakers .speaker > p {
-    clear: left;
-    width: 380px;
-    padding-top: 6px;
-    margin-left: 93px;
-    font-size: .9em;
-    line-height: 1.2em;
-    height: 0;
-    margin-top: 10px;
-    margin-bottom: 0;
-    opacity: 0;
-    overflow: hidden;
-    transition: opacity .3s ease-out;
-}
-
-#speakers .speaker > p + p {
-    font-style: italic;
-}
-
-#speakers .speaker.open > p {
-    opacity: 1;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-#speakers .speaker img {
-    height: 70px;
-    width: 70px;
-  box-shadow: -1px 0 3px rgba(0,0,0,.2);
-}
-
-#speakers .speaker h4 a {
-    font-size: .9em;
-    color: #9AE0FF;
-    text-transform: none;
-    text-decoration: none;
-    margin-left: 5px;
-}
-
-#speakers .speaker h3 a:hover {
-    color: #fff;
-}
-
-#speakers .speaker.break {
-    cursor: default;
-}
-
-#sponsors {
-  clear: both;
-  text-align: center;
-}
-
 
 #footer {
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 #logo {
@@ -495,6 +283,8 @@ a.skip:hover {
 
 #footer p a {
   color: #888;
+  text-decoration: none;
+  border-bottom: 1px dotted #888;
 }
 
 #footer p a:hover {

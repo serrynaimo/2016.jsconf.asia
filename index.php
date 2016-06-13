@@ -15,10 +15,9 @@
 	<title>JSConf.Asia Singapore 2016</title>
 	<link href='//fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/app.css" />
-	<link rel="stylesheet" type="text/css" href="css/colours.css" />
 	<link rel="shortcut icon" href="favicon.png" >
 	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
-	<meta name="viewport" content="width=500, user-scalable=no" />
+	<meta name="viewport" content="width=500,max-width=500" />
 	<?php } ?>
 	<meta property="og:title" content="JSConf.Asia - 25+26 Nov 2016, Singapore"/>
 	<meta property="og:type" content="website"/>
@@ -57,14 +56,14 @@
 
 <section id="footer">
     <p>
-      <a href="https://2016.devfest.asia"><img src="./img/devfest2016.png" height="100" alt="Singapore DevFest.Asia 2016"/></a>
+      <a href="https://2016.devfest.asia" style="border: none"><img src="./img/devfest2016.png" height="100" alt="Singapore DevFest.Asia 2016"/></a>
     </p>
     <p>
       <br/>
       JSConf.Asia 2016 Singapore is part of DevFest.Asia,<br/>Southeast Asia’s community organized<br/>web developer festival.<br/><br/><br/><br/><br/>
       
 
-      <a href="http://jsconf.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="logo" viewBox="0 0 630 630">
+      <a href="http://jsconf.com" target="_blank" style="border: none"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="logo" viewBox="0 0 630 630">
       <g>
         <rect id="background" x="0" y="0" width="630" height="630" fill="none" />
         <path id="j" fill="#888" d="m 165.65,526.47375 48.2125,-29.1775 C 223.16375,513.7875 231.625,527.74 251.92,527.74 c 19.45375,0 31.71875,-7.60975 31.71875,-37.21 l 0,-201.3 59.20375,0 0,202.1375 c 0,61.32 -35.94375,89.23125 -88.385,89.23125 -47.36125,0 -74.8525,-24.52875 -88.8075,-54.13" />
