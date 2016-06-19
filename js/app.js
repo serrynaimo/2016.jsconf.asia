@@ -77,3 +77,4 @@ $("#subscribeForm input[type='email']").on("focus", function() {
         },1);
     }
 });
+

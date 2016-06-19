@@ -1,5 +1,5 @@
 var camera, scene, renderer;
-var tower, target, light;
+var tower, target, light, skipped;
 var start, k = 0;
 var SHADOW_MAP_WIDTH = SHADOW_MAP_HEIGHT = 512;
 
@@ -149,6 +149,12 @@ function init() {
   window.addEventListener('mousemove', onMouseMove)
 	intro = document.getElementById('intro')
 	intro.appendChild( renderer.domElement );
+  intro.onclick = function () {
+    if (!skipped) {
+      skipped = true
+      start = Date.now() - 9500;
+    }
+  }
 	body = document.getElementById('body')
 
 	window.addEventListener( 'resize', onWindowResize, false );
@@ -195,9 +201,10 @@ function animate() {
 
 	var len = 12;
 	var time = Math.min( (Date.now() - start) / 1000, len);
+
 	k = easeInOut(time / len);
 
-	var z = -11000 + (12000 * k)
+	var z = -11000 + (len * 1000 * k)
 
 	if(z < 0) {
 		x = 500 - (250 * (1+k) * (1+k) * (1+k))
