@@ -219,7 +219,7 @@ a.skip:hover {
 }
 
 #about a.button:after {
-  content: "SUBMIT A TALK PROPOSAL";
+  content: "GET YOUR TICKETS";
   z-index: 7;
   padding: 10px 30px;
   color: #fff;

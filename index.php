@@ -14,7 +14,7 @@
 	<meta charset="UTF-8">
 	<title>JSConf.Asia Singapore 2016</title>
 	<link href='//fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/app.css" />
+	<link rel="stylesheet" type="text/css" href="css/app1.css" />
 	<link rel="shortcut icon" href="favicon.png" >
 	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
 	<meta name="viewport" content="width=500,max-width=500" />
@@ -37,12 +37,12 @@
       <p>
         <span style="color: #fff">5 years of Southeast Asia's largest web developer conference</span>
         <br/><br/>
-        Ticket sales start in<br/>
+        Ticket sales start<br/>
         <span id="countdown"></span>
       </p>
       <div>
-        <a href="https://jsconfasia.wufoo.com/forms/cssconf-and-jsconfasia" class="button">Submit a talk proposal</a><br/>
-        <!-- <a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshGpDJn60AwbJ6xegSHe_cDh" class="hint">Watch our videos</a> -->
+        <a href="https://www.eventnook.com/event/devfestasia2016/home" class="button">Get your tickets</a><br/>
+        <a href="https://jsconfasia.wufoo.com/forms/cssconf-and-jsconfasia" class="hint">Submit a talk proposal</a>
       </div>
     </section>
 
@@ -129,7 +129,7 @@
             if (distance < 0) {
 
                 clearInterval(timer);
-                document.getElementById(id).innerHTML = '';
+                document.getElementById(id).innerHTML = 'now!';
 
                 return;
             }
