@@ -20,7 +20,7 @@ body {
 #subscribeForm {
   margin: 80px auto;
 	width: 500px;
-	height: 40px;
+  height: 80px;
 	display: block;
   text-align: center;
   -webkit-perspective: 500;
@@ -111,9 +111,9 @@ body {
 
 
 #subscribeForm .msg {
-	position: absolute;
-	top: 60px;
 	width: 100%;
+  position: relative;
+  top: 20px;
 	text-align: center;
 	color: #777;
 	font-size: 1em;
@@ -122,12 +122,9 @@ body {
   -moz-transition: all .2s ease-out;
   transition: all .2s ease-out;
 }
-#subscribeForm .msg span {
-	display: block;
-}
 
 #subscribeForm.failure .msg {
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 a.skip {
