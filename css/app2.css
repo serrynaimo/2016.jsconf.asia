@@ -55,28 +55,38 @@ body {
 
 #subscribeForm .input input {
   display: inline-block;
+  box-sizing: border-box;
   vertical-align: top;
   font-size: 20px;
-  padding: 0 0 0 12px;
+  line-height: 40px;
+  padding: 0 10px;
   font-family: 'Doppio One';
-  border: 0;
   outline: 0;
-  width: 204px;
+  width: 170px;
   height: 40px;
   border-radius: 0;
   background: transparent;
-  border-bottom: 1px solid #333;
+  border: 1px solid #333;
   color: #999;
+  border-right: 0;
 }
 
 #subscribeForm .input input[type=email] {
-  padding: 0 12px 0 0;
-  margin-left: -7px;
+  border-left: 0;
 }
 
 #subscribeForm .input input[type=submit] {
-  display: block;
-  visibility: hidden;
+  display: inline-block;
+  border-right: 1px solid #333;
+  border-left: 0;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 1em;
+  width: 120px;
+}
+
+#subscribeForm .input input[type=submit]:hover {
+  color: #fff !important;
 }
 
 ::-webkit-input-placeholder {

@@ -14,7 +14,7 @@
 	<meta charset="UTF-8">
 	<title>JSConf.Asia Singapore 2016</title>
 	<link href='//fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/app1.css" />
+	<link rel="stylesheet" type="text/css" href="css/app2.css" />
 	<link rel="shortcut icon" href="favicon.png" >
 	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
 	<meta name="viewport" content="width=500,max-width=500" />
@@ -47,7 +47,7 @@
     </section>
 
     <form id="subscribeForm" action="https://2012.jsconfasia.com/addsubscriber.php" method="get">
-      <div class="input"><span><input type="text" name="fname" placeholder="Enter your first name and" /><input type="email" name="email" placeholder="email address for updates" /><input type="submit" value="Subscribe" /></span></div>
+      <div class="input"><span><input type="text" name="fname" placeholder="First name" /><input type="email" name="email" placeholder="Email" /><input type="submit" value="Subscribe" /></span></div>
       <div class="msg"><span></span></div>
     </form>
 
@@ -88,7 +88,7 @@
   <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.js"></script>
   <script type="text/javascript">window.jQuery || document.write('<script src="./js/jquery.min.js">\x3C/script>')</script>
   <script type="text/javascript" src="./js/jquery.form.min.js"></script>
-  <script src="./js/app.js"></script>
+  <script src="./js/app1.js"></script>
 
   <script src="./js/three.min.js"></script>
 

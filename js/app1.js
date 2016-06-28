@@ -41,27 +41,11 @@ $("#subscribeForm .msg").click(function() {
 	$("#subscribeForm input[name='email']").focus();
 });
 
-var change = function(e) {
-    var a = $("#subscribeForm input[name='fname']");
-    var b = $("#subscribeForm input[name='email']");
-
-	if(e.which || a.val() !== "" || b.val() !== "") {
-    	b.attr("placeholder","E-Mail");
-        a.attr("placeholder","First name");
-	}
-	else {
-    	a.attr("placeholder","Enter your first name and");
-        b.attr("placeholder","email address for updates");
-	}
-};
-
 $("#subscribeForm input").focus(function(e) {
 	$("#subscribeForm").addClass("selected");
-	change(e);
 }).blur(function(e) {
 	$("#subscribeForm").removeClass("selected");
-	change(e);
-}).keydown(change);
+});
 
 $("#subscribeForm").hover(function() {
 	$("#subscribeForm").addClass("hovered");
