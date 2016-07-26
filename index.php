@@ -37,7 +37,7 @@
       <p>
         <span style="color: #fff">5 years of Southeast Asia's largest web developer conference</span>
         <br/><br/>
-        Ticket sales start<br/>
+        Ticket prices increase<br/>
         <span id="countdown"></span>
       </p>
       <div>
@@ -46,36 +46,120 @@
       </div>
     </section>
 
-    <form id="subscribeForm" action="https://2012.jsconfasia.com/addsubscriber.php" method="get">
+    <section id="updates">
+
+      <div class="cards">
+        <div class="card speaker">
+          <img src="img/raquel.jpg" class="bg" />
+          <a href="https://twitter.com/rockbot" target="_blank"><img src="img/raquel.jpg" class="pic" /></a>
+          <h3>Raquel Vélez</h3>
+          <span class="title">NPM Rock Bot</span>
+          <div class="bio">
+            <p>Raquel Vélez cares about code and culture at npm, Inc. in Oakland, CA.</p>
+            <p>She has previously worked at institutions such as Caltech, NASA JPL, the MIT Lincoln Laboratory, and various universities in Europe.</p>
+            <p>She is a co-author of the book &quot;Make: JavaScript Robotics.&quot;</p>
+            <p>In her off time, you can find her baking, teaching NodeBots not to fall off of tables, and speaking.</p>
+            <p>... also, hanging out with her hilarious husband and two cats dressed in dog suits.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/timpietrusky.jpg" class="bg" />
+          <a href="https://twitter.com/TimPietrusky" target="_blank"><img src="img/timpietrusky.jpg" class="pic" /></a>
+          <h3>Tim Pietrusky</h3>
+          <span class="title">Disco Nerd</span>
+          <div class="bio">
+            <p>By day Tim Pietrusky is the CTO of Synoa GmbH and lives near Frankfurt (Main) in Germany.</p>
+            <p>At night he and his cat Kazzo work on NERDDISCO to create live music visualizations with JavaScript.</p>
+            <p>He contributed Kittify to the &quot;only FUN open-source projects&quot;-community bullgit.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/jonmckay.jpg" class="bg" />
+          <a href="https://twitter.com/jonmckay" target="_blank"><img src="img/jonmckay.jpg" class="pic" /></a>
+          <h3>Jon McKay</h3>
+          <span class="title">Chief Climate Tesseler</span>
+          <div class="bio">
+            <p>Jon is an entrepreneur and engineer from California. He is one of the creators of the Tessel Project - a JavaScript-programmable embedded platform and resides on the Steering Committee of the project.</p>
+            <p>In his spare time you can find him rock climbing, working on his motorcycle, or eating a disturbing number of avocados.</p>
+            <p>He is currently excited about getting more programmers involved in harnessing code to fight climate change.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/kelsey.jpg" class="bg" />
+          <a href="https://twitter.com/SelkeyMoonbeam" target="_blank"><img src="img/kelsey.jpg" class="pic" /></a>
+          <h3>Kelsey Breseman</h3>
+          <span class="title">Chief Neural Tesseler</span>
+          <div class="bio">
+            <p>Kelsey is an engineer and Steering Committee member of the Tessel Project —an open source organization whose aim is to empower web developers to enter the connected-devices space.</p>
+            <p>Previously, Kelsey has been involved in developing consumer drones, research on sleep and temperature, implantable vision devices, and devices for lung cancer diagnosis.</p>
+            <p>She has a degree in neural engineering, and is interested in prosthetics, speculative fiction, circus arts, and really long walks.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/chengzhao.jpg" class="bg" />
+          <a href="https://twitter.com/zcbenz" target="_blank"><img src="img/chengzhao.jpg" class="pic" /></a>
+          <h3>Cheng Zhao</h3>
+          <span class="title">Negatively Charged JavaScript</span>
+          <div class="bio">
+            <p>Cheng is working at GitHub developing the Electron framework and is a huge fan of incredibly elaborate conference speaker biographies.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/mattmckegg.jpg" class="bg" />
+          <a href="https://twitter.com/mattmckegg" target="_blank"><img src="img/mattmckegg.jpg" class="pic" /></a>
+          <h3>Matt McKegg</h3>
+          <span class="title">Music Button</span>
+          <div class="bio">
+            <p>Back for his second time at JSConf.Asia, Matt is a JavaScript hacker and backyard musician and from Wellington, New Zealand.</p>
+            <p>He is a lover of all things open and modular and spends most of his time pressing buttons of various shapes, sizes and colours.</p>
+            <p>Sometimes these buttons make sounds.</p>
+          </div>
+        </div>
+      </div>
+
+      <p>
+      <br/><br/>We'll announce more speakers and contributers as we approach the event. Stay tuned.<br/><br/>
+      <a href="https://twitter.com/jsconfasia">Follow us on Twitter</a> &nbsp; <a href="https://facebook.com/jsconfasia">Like us on Facebook</a>
+      </p>
+
+      <form id="subscribeForm" action="https://2012.jsconfasia.com/addsubscriber.php" method="get">
       <div class="input"><span><input type="text" name="fname" placeholder="First name" /><input type="email" name="email" placeholder="Email" /><input type="submit" value="Subscribe" /></span></div>
       <div class="msg"><span></span></div>
-    </form>
+      </form>
+
+    </section>
 
   </section>
 
-
-<section id="footer">
-  <div>
-    <p>
-      <a href="https://2016.devfest.asia" style="border: none"><img src="./img/devfest2016.png" height="100" alt="Singapore DevFest.Asia 2016"/></a>
-      <br/><br/>
-      JSConf.Asia 2016 Singapore is part of DevFest.Asia,<br/>Southeast Asia’s community organized<br/>web developer festival
-    </p>
-  </div>
-  <div>
-    <p>
-      <a href="http://jsconf.com" target="_blank" style="border: none"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="logo" viewBox="0 0 630 630">
-      <g>
-        <rect id="background" x="0" y="0" width="630" height="630" fill="none" />
-        <path id="j" fill="#888" d="m 165.65,526.47375 48.2125,-29.1775 C 223.16375,513.7875 231.625,527.74 251.92,527.74 c 19.45375,0 31.71875,-7.60975 31.71875,-37.21 l 0,-201.3 59.20375,0 0,202.1375 c 0,61.32 -35.94375,89.23125 -88.385,89.23125 -47.36125,0 -74.8525,-24.52875 -88.8075,-54.13" />
-        <path id="s" fill="#888" d="m 375,520.13 48.20625,-27.91125 c 12.69,20.72375 29.1825,35.9475 58.36125,35.9475 24.53125,0 40.17375,-12.26475 40.17375,-29.18125 0,-20.29875 -16.06875,-27.48875 -43.135,-39.32625 l -14.7975,-6.3475 c -42.715,-18.18125 -71.05,-41.0175 -71.05,-89.2275 0,-44.40375 33.83125,-78.2375 86.695,-78.2375 37.6375,0 64.7025,13.11125 84.15375,47.36625 l -46.09625,29.60125 c -10.15,-18.1825 -21.1425,-25.37125 -38.0575,-25.37125 -17.33875,0 -28.335,10.995 -28.335,25.37125 0,17.7625 10.99625,24.9525 36.3675,35.94875 l 14.8,6.3425 c 50.325,21.56875 78.66,43.5575 78.66,93.03375 0,53.2875 -41.86625,82.465 -98.11,82.465 -54.97625,0 -90.5,-26.2175 -107.83625,-60.47375" />
-      </g>
-      </svg></a><br/><br/>
-      Check out our past conferences:<br/><a href="https://2015.jsconf.asia" target="_blank">2015</a>
-       - <a href="https://2014.jsconf.asia" target="_blank">2014</a>
-       - <a href="https://2013.jsconf.asia" target="_blank">2013</a>
-       - <a href="https://2012.jsconf.asia" target="_blank">2012</a>
-     </p>
+  <section id="footer">
+    <div>
+      <div>
+        <p>
+          <a href="https://2016.devfest.asia" style="border: none"><img src="./img/devfest2016.png" height="100" alt="Singapore DevFest.Asia 2016"/></a>
+          <br/><br/>
+          JSConf.Asia 2016 Singapore is part of DevFest.Asia,<br/>Southeast Asia’s community organized<br/>web developer festival
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="http://jsconf.com" target="_blank" style="border: none"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="logo" viewBox="0 0 630 630">
+          <g>
+            <rect id="background" x="0" y="0" width="630" height="630" fill="none"></rect>
+            <path id="j" fill="#888" d="m 165.65,526.47375 48.2125,-29.1775 C 223.16375,513.7875 231.625,527.74 251.92,527.74 c 19.45375,0 31.71875,-7.60975 31.71875,-37.21 l 0,-201.3 59.20375,0 0,202.1375 c 0,61.32 -35.94375,89.23125 -88.385,89.23125 -47.36125,0 -74.8525,-24.52875 -88.8075,-54.13"></path>
+            <path id="s" fill="#888" d="m 375,520.13 48.20625,-27.91125 c 12.69,20.72375 29.1825,35.9475 58.36125,35.9475 24.53125,0 40.17375,-12.26475 40.17375,-29.18125 0,-20.29875 -16.06875,-27.48875 -43.135,-39.32625 l -14.7975,-6.3475 c -42.715,-18.18125 -71.05,-41.0175 -71.05,-89.2275 0,-44.40375 33.83125,-78.2375 86.695,-78.2375 37.6375,0 64.7025,13.11125 84.15375,47.36625 l -46.09625,29.60125 c -10.15,-18.1825 -21.1425,-25.37125 -38.0575,-25.37125 -17.33875,0 -28.335,10.995 -28.335,25.37125 0,17.7625 10.99625,24.9525 36.3675,35.94875 l 14.8,6.3425 c 50.325,21.56875 78.66,43.5575 78.66,93.03375 0,53.2875 -41.86625,82.465 -98.11,82.465 -54.97625,0 -90.5,-26.2175 -107.83625,-60.47375"></path>
+          </g>
+          </svg></a><br/><br/>
+          Check out our past conferences:<br/><a href="https://2015.jsconf.asia" target="_blank">2015</a>
+           - <a href="https://2014.jsconf.asia" target="_blank">2014</a>
+           - <a href="https://2013.jsconf.asia" target="_blank">2013</a>
+           - <a href="https://2012.jsconf.asia" target="_blank">2012</a>
+        </p>
+      </div>
     </div>
     <p>
       A Nerdherd Pte. Ltd. event<br/><br/>
@@ -96,6 +180,7 @@
   <script src="./js/FontUtils.js"></script>
   <script src="./js/regular.typeface.js"></script>
   <script src="./js/animation.js"></script>
+  <script src="./js/typed.js"></script>
 
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -107,7 +192,7 @@
   ga('send', 'pageview');
 
 
-   CountDownTimer('Fri, 24 Jun 2016 14:00:00 +0800', 'countdown');
+   CountDownTimer('Wed, 24 Aug 2016 00:00:00 +0800', 'countdown');
 
     function CountDownTimer(dt, id)
     {
