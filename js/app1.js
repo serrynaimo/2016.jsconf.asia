@@ -77,6 +77,6 @@ $(".speaker").mouseover(function() {
 		strings: strings,
 		backSpeed: -5000,
 		showCursor: false,
-		typeSpeed: -30
+		typeSpeed: -100
 	});
 });
