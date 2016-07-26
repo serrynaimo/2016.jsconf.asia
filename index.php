@@ -69,7 +69,7 @@
           <h3>James Kyle</h3>
           <span class="title">ES6 Transpiler</span>
           <div class="bio">
-            <p>James is an engineer at Facebook as well as a contributor to projects like BabelJS and Lerna. &gt;&gt;</p>
+            <p>James is an engineer at Facebook as well as a core contributor to projects like BabelJS and Lerna. &gt;&gt;</p>
             <p>Outside of work James is trying to make computer science more approachable to front-end developers.</p>
           </div>
         </div>
