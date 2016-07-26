@@ -64,6 +64,17 @@
         </div>
 
         <div class="card speaker">
+          <img src="img/jameskyle.jpg" class="bg" />
+          <a href="https://twitter.com/thejameskyle" target="_blank"><img src="img/jameskyle.jpg" class="pic" /></a>
+          <h3>James Kyle</h3>
+          <span class="title">ES6 Transpiler</span>
+          <div class="bio">
+            <p>James is an engineer at Facebook as well as a contributor to projects like BabelJS and Lerna. &gt;&gt;</p>
+            <p>Outside of work James is trying to make computer science more approachable to front-end developers.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
           <img src="img/timpietrusky.jpg" class="bg" />
           <a href="https://twitter.com/TimPietrusky" target="_blank"><img src="img/timpietrusky.jpg" class="pic" /></a>
           <h3>Tim Pietrusky</h3>
@@ -109,7 +120,7 @@
           </div>
         </div>
 
-        <div class="card speaker">
+        <!--<div class="card speaker">
           <img src="img/mattmckegg.jpg" class="bg" />
           <a href="https://twitter.com/mattmckegg" target="_blank"><img src="img/mattmckegg.jpg" class="pic" /></a>
           <h3>Matt McKegg</h3>
@@ -119,7 +130,7 @@
             <p>He is a lover of all things open and modular and spends most of his time pressing buttons of various shapes, sizes and colours. &gt;&gt;</p>
             <p>Sometimes these buttons make sounds.</p>
           </div>
-        </div>
+        </div>//-->
       </div>
 
       <p>
