@@ -63,7 +63,7 @@ $("#subscribeForm input[type='email']").on("focus", function() {
 });
 
 
-$(".speaker").mouseover(function() {
+$(".speaker").mouseenter(function(event) {
 	var $bio = $(this).find('.bio');
 	var strings = $bio.data('strings') || [];
 	if(!strings.length) {
