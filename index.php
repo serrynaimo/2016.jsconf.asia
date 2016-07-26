@@ -164,7 +164,7 @@
     <p>
       A Nerdherd Pte. Ltd. event<br/><br/>
       <a href="mailto:sponsors@jsconf.asia?subject=JSConf.Asia 2016 Sponsorship">Sponsorship Inquiry</a><br/>
-      <a href="https://2015.devfest.asia/code-of-conduct.html">Code of Conduct</a>
+      <a href="https://2016.devfest.asia/code-of-conduct">Code of Conduct</a>
     </p>
   </section>
 
