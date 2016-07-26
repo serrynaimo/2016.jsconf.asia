@@ -76,8 +76,7 @@ $(".speaker").mouseover(function() {
 	$bio.typed({
 		strings: strings,
 		backSpeed: -5000,
-		backDelay: 2000,
 		showCursor: false,
-		typeSpeed: -20
+		typeSpeed: -30
 	});
 });
