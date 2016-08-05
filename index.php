@@ -42,7 +42,7 @@
       </p>
       <div>
         <a href="https://www.eventnook.com/event/devfestasia2016/home" class="button">Get your tickets</a><br/>
-        <a href="https://jsconfasia.wufoo.com/forms/cssconf-and-jsconfasia" class="hint">Submit a talk proposal</a>
+        <a href="https://jsconfasia.wufoo.com/forms/cssconf-and-jsconfasia" class="hint">Recommend a speaker or attendee</a>
       </div>
     </section>
 
