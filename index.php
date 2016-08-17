@@ -122,7 +122,7 @@
 
 
 
-      </div>
+      <!--</div>
       <br/><br/>
       <div class="cards">
 
@@ -198,7 +198,7 @@
             <p>Martin works as a creative developer at ubilabs in Hamburg, focusing on WebGL, Data-Visualization and interactive website experiences. &gt;&gt;</p>
             <p>In his spare time he plays around at the intersection of electronics and JavaScript and loves to connect random things from the physical world into the web.</p>
           </div>
-        </div>
+        </div> //-->
       </div>
 
       <p>
