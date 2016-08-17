@@ -168,7 +168,7 @@
 
         <div class="card speaker">
           <img src="img/lian.jpg" class="bg" />
-          <a href="https://twitter.com/mattmckegg" target="_blank"><img src="img/lian.jpg" class="pic" /></a>
+          <a href="https://twitter.com/Chimney42" target="_blank"><img src="img/lian.jpg" class="pic" /></a>
           <h3>Lian Li</h3>
           <span class="title">Machine learned</span>
           <div class="bio">
