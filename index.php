@@ -120,7 +120,16 @@
           </div>
         </div>
 
-        <!--<div class="card speaker">
+
+
+      </div>
+      <br/><br/>
+      <div class="cards">
+
+
+
+
+        <div class="card speaker">
           <img src="img/mattmckegg.jpg" class="bg" />
           <a href="https://twitter.com/mattmckegg" target="_blank"><img src="img/mattmckegg.jpg" class="pic" /></a>
           <h3>Matt McKegg</h3>
@@ -130,7 +139,66 @@
             <p>He is a lover of all things open and modular and spends most of his time pressing buttons of various shapes, sizes and colours. &gt;&gt;</p>
             <p>Sometimes these buttons make sounds.</p>
           </div>
-        </div>//-->
+        </div>
+
+        <div class="card speaker">
+          <img src="img/kenneth.jpg" class="bg" />
+          <a href="https://twitter.com/Kenneth" target="_blank"><img src="img/kenneth.jpg" class="pic" /></a>
+          <h3>Kenneth Auchenberg</h3>
+          <span class="title">Cutting Edge Debugger</span>
+          <div class="bio">
+            <p>Kenneth is a Program Manager, focused on DevTools and Remote Debugging at Microsoft, and is obsessed with tooling. &gt;&gt;</p>
+            <p>He started the RemoteDebug initiative to unify remote debugging and lives in Vancouver, Canada. &gt;&gt;</p>
+            <p>He’s the organizer of the ColdFront Conference in Copenhagen, Denmark. &gt;&gt;</p>
+            <p>Kenneth blogs occasionally at kenneth.io, and tweets as @Kenneth</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/cheeaun.jpg" class="bg" />
+          <a href="https://twitter.com/cheeaun" target="_blank"><img src="img/cheeaun.jpg" class="pic" /></a>
+          <h3>Chee Aun Lim</h3>
+          <span class="title">Kopi Hacker</span>
+          <div class="bio">
+            <p>Chee Aun is a Front-End Engineer from Malaysia, and currently based in Singapore. &gt;&gt;</p>
+            <p>He enjoys working on many side projects, like HackerWeb, Life and BusRouter SG. &gt;&gt;</p>
+            <p>He also organises KopiJS, a casual social gathering for engineers, designers and makers in Singapore.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/lian.jpg" class="bg" />
+          <a href="https://twitter.com/mattmckegg" target="_blank"><img src="img/lian.jpg" class="pic" /></a>
+          <h3>Lian Li</h3>
+          <span class="title">Machine learned</span>
+          <div class="bio">
+            <p>Lian completed her apprenticeship as IT specialist in early 2014, after a failed attempt at becoming a lawyer. &gt;&gt;</p>
+            <p>Since then she has been working as Jack of all trades at the interface between development and support.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/yosuke.jpg" class="bg" />
+          <a href="https://twitter.com/yosuke_furukawa" target="_blank"><img src="img/yosuke.jpg" class="pic" /></a>
+          <h3>Yosuke Furuwaka</h3>
+          <span class="title">Node Next</span>
+          <div class="bio">
+            <p>Yosuke is a leader of the Japan Node.js User Group and organizer of NodeFest. &gt;&gt;</p>
+            <p>Yosuke has an interest in ESNext, new protocols like HTTP/2, webrtc, and testing tools. &gt;&gt;</p>
+            <p>He built the tower-of-babel, ES2015 tutorial tool and is now getting into universal web applications using React and Redux.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/martin.jpg" class="bg" />
+          <a href="https://twitter.com/usefulthink" target="_blank"><img src="img/martin.jpg" class="pic" /></a>
+          <h3>Martin Schuhfuss</h3>
+          <span class="title">Light API</span>
+          <div class="bio">
+            <p>Martin works as a creative developer at ubilabs in Hamburg, focusing on WebGL, Data-Visualization and interactive website experiences. &gt;&gt;</p>
+            <p>In his spare time he plays around at the intersection of electronics and JavaScript and loves to connect random things from the physical world into the web.</p>
+          </div>
+        </div>
       </div>
 
       <p>

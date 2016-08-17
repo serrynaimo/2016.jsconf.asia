@@ -338,7 +338,7 @@ p {
   text-transform: uppercase;
   color: #fff !important;
   position: absolute;
-  top: 40px;
+  bottom: 68px;
   left: 195px;
   width: 250px;
   transition: all .2s ease-out;
