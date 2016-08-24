@@ -122,7 +122,7 @@
 
 
 
-      <!--</div>
+      </div>
       <br/><br/>
       <div class="cards">
 
@@ -135,7 +135,7 @@
           <h3>Matt McKegg</h3>
           <span class="title">Music Button</span>
           <div class="bio">
-            <p>Back for his second time at JSConf.Asia, Matt is a JavaScript hacker and backyard musician and from Wellington, New Zealand. &gt;&gt;</p>
+            <p>Back for his second time at JSConf.Asia, Matt is a JavaScript hacker and backyard musician from Wellington, New Zealand. &gt;&gt;</p>
             <p>He is a lover of all things open and modular and spends most of his time pressing buttons of various shapes, sizes and colours. &gt;&gt;</p>
             <p>Sometimes these buttons make sounds.</p>
           </div>
@@ -172,8 +172,8 @@
           <h3>Lian Li</h3>
           <span class="title">Machine learned</span>
           <div class="bio">
-            <p>Lian completed her apprenticeship as IT specialist in early 2014, after a failed attempt at becoming a lawyer. &gt;&gt;</p>
-            <p>Since then she has been working as Jack of all trades at the interface between development and support.</p>
+            <p>Lian is working as Jack of all trades at the interface between development and support. &gt;&gt;</p>
+            <p>She completed her apprenticeship as IT specialist in early 2014, after a failed attempt at becoming a lawyer.</p>
           </div>
         </div>
 
@@ -183,7 +183,7 @@
           <h3>Yosuke Furuwaka</h3>
           <span class="title">Node Next</span>
           <div class="bio">
-            <p>Yosuke is a leader of the Japan Node.js User Group and organizer of NodeFest. &gt;&gt;</p>
+            <p>Yosuke leads the Japan Node.js User Group and is an organizer of NodeFest. &gt;&gt;</p>
             <p>Yosuke has an interest in ESNext, new protocols like HTTP/2, webrtc, and testing tools. &gt;&gt;</p>
             <p>He built the tower-of-babel, ES2015 tutorial tool and is now getting into universal web applications using React and Redux.</p>
           </div>
@@ -198,7 +198,7 @@
             <p>Martin works as a creative developer at ubilabs in Hamburg, focusing on WebGL, Data-Visualization and interactive website experiences. &gt;&gt;</p>
             <p>In his spare time he plays around at the intersection of electronics and JavaScript and loves to connect random things from the physical world into the web.</p>
           </div>
-        </div> //-->
+        </div> 
       </div>
 
       <p>
@@ -271,7 +271,7 @@
   ga('send', 'pageview');
 
 
-   CountDownTimer('Wed, 24 Aug 2016 00:00:00 +0800', 'countdown');
+   CountDownTimer('Sat, 24 Sep 2016 00:00:00 +0800', 'countdown');
 
     function CountDownTimer(dt, id)
     {
