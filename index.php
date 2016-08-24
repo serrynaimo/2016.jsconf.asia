@@ -157,7 +157,7 @@
         <div class="card speaker">
           <img src="img/cheeaun.jpg" class="bg" />
           <a href="https://twitter.com/cheeaun" target="_blank"><img src="img/cheeaun.jpg" class="pic" /></a>
-          <h3>Chee Aun Lim</h3>
+          <h3>Lim Chee Aun</h3>
           <span class="title">Kopi Hacker</span>
           <div class="bio">
             <p>Chee Aun is a Front-End Engineer from Malaysia, and currently based in Singapore. &gt;&gt;</p>
