@@ -157,7 +157,8 @@
         <div class="card speaker">
           <img src="img/cheeaun.jpg" class="bg" />
           <a href="https://twitter.com/cheeaun" target="_blank"><img src="img/cheeaun.jpg" class="pic" /></a>
-          <h3>Lim Chee Aun</h3>
+          <h3>Lim 
+          Chee Aun</h3>
           <span class="title">Kopi Hacker</span>
           <div class="bio">
             <p>Chee Aun is a Front-End Engineer from Malaysia, and currently based in Singapore. &gt;&gt;</p>
@@ -180,7 +181,7 @@
         <div class="card speaker">
           <img src="img/yosuke.jpg" class="bg" />
           <a href="https://twitter.com/yosuke_furukawa" target="_blank"><img src="img/yosuke.jpg" class="pic" /></a>
-          <h3>Yosuke Furuwaka</h3>
+          <h3>Yosuke Furukawa</h3>
           <span class="title">Node Next</span>
           <div class="bio">
             <p>Yosuke leads the Japan Node.js User Group and is an organizer of NodeFest. &gt;&gt;</p>
