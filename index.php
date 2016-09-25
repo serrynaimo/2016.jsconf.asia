@@ -200,7 +200,88 @@
             <p>In his spare time he plays around at the intersection of electronics and JavaScript and loves to connect random things from the physical world into the web.</p>
           </div>
         </div> 
+      
       </div>
+      <br/><br/>
+      <div class="cards">
+
+
+
+
+        <div class="card speaker">
+          <img src="img/alexcastillo.jpg" class="bg" />
+          <a href="https://twitter.com/castillo__io" target="_blank"><img src="img/alexcastillo.jpg" class="pic" /></a>
+          <h3>Alex Castillo</h3>
+          <span class="title">Brain Wave Analyzer</span>
+          <div class="bio">
+            <p>Alex is a Software Engineer at Netflix and specializes in enterprise single-page applications. &gt;&gt;</p>
+            <p>He is very passionate about the human brain and how we can use technology to understand it better. &gt;&gt;</p>
+            <p>Alex has contributed to the open source community and focuses on Angular and NeuroTech. &gt;&gt;</p>
+            <p>In his spare time, he likes experimenting with guitars and IoT.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/fhinkel.jpg" class="bg" />
+          <a href="https://twitter.com/fhinkel" target="_blank"><img src="img/fhinkel.jpg" class="pic" /></a>
+          <h3>Franziska Hinkelmann</h3>
+          <span class="title">Node Engines</span>
+          <div class="bio">
+            <p>Franziska is a software engineer at Google Germany. &gt;&gt;</p>
+            <p>She works on the Chrome V8 team, focusing on anything related to Node.js. &gt;&gt;</p>
+            <p>She regularly teaches Node.js courses at the International Summer University for Women in Informatics and is a former organizer of the PHP User Group Munich.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/cheeaun.jpg" class="bg" />
+          <a href="https://twitter.com/cheeaun" target="_blank"><img src="img/cheeaun.jpg" class="pic" /></a>
+          <h3>KahWeh Teng</h3>
+          <span class="title">Kopi Hacker</span>
+          <div class="bio">
+            <p>Chee Aun is a Front-End Engineer from Malaysia, and currently based in Singapore. &gt;&gt;</p>
+            <p>He enjoys working on many side projects, like HackerWeb, Life and BusRouter SG. &gt;&gt;</p>
+            <p>He also organises KopiJS, a casual social gathering for engineers, designers and makers in Singapore.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/lian.jpg" class="bg" />
+          <a href="https://twitter.com/Chimney42" target="_blank"><img src="img/lian.jpg" class="pic" /></a>
+          <h3>Marco Cecconi</h3>
+          <span class="title">Machine learned</span>
+          <div class="bio">
+            <p>Lian is working as Jack of all trades at the interface between development and support. &gt;&gt;</p>
+            <p>She completed her apprenticeship as IT specialist in early 2014, after a failed attempt at becoming a lawyer.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/yosuke.jpg" class="bg" />
+          <a href="https://twitter.com/yosuke_furukawa" target="_blank"><img src="img/yosuke.jpg" class="pic" /></a>
+          <h3>Dr Alex Gouaillard</h3>
+          <span class="title">Node Next</span>
+          <div class="bio">
+            <p>Yosuke leads the Japan Node.js User Group and is an organizer of NodeFest. &gt;&gt;</p>
+            <p>Yosuke has an interest in ESNext, new protocols like HTTP/2, webrtc, and testing tools. &gt;&gt;</p>
+            <p>He built the tower-of-babel, ES2015 tutorial tool and is now getting into universal web applications using React and Redux.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/chengxili.jpg" class="bg" />
+          <img src="img/chengxili.jpg" class="pic" />
+          <h3>Chengxi Li</h3>
+          <span class="title">Tencent on React</span>
+          <div class="bio">
+            <p>Lee is from AlloyTeam, Tencent. &gt;&gt;</p>
+            <p>Recently he is working on how to bootstrap a live video webapp at ease with React and HLS in order to win the market in China.</p>
+          </div>
+        </div> 
+      </div>
+
+
+
 
       <p>
       <br/><br/>We'll announce more speakers and contributers as we approach the event. Stay tuned.<br/><br/>
