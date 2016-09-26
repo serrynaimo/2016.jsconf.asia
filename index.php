@@ -234,12 +234,12 @@
         </div>
 
         <div class="card speaker">
-          <img src="img/kahweh.jpg" class="bg" />
-          <img src="img/kahweh.jpg" class="pic" />
-          <h3>KahWeh Teng</h3>
+          <img src="img/kahwee.jpg" class="bg" />
+          <img src="img/kahwee.jpg" class="pic" />
+          <h3>KahWee Teng</h3>
           <span class="title">Machine whistler</span>
           <div class="bio">
-            <p>KahWeh is a Singaporean web technologist in the ad industry and is living in San Francisco.</p>
+            <p>KahWee is a Singaporean web technologist in the ad industry and is living in San Francisco.</p>
           </div>
         </div>
 
