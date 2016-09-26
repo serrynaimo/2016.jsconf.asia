@@ -257,7 +257,7 @@
 
         <div class="card speaker">
           <img src="img/alexg.jpg" class="bg" />
-          <a href="https://twitter.com/yosuke_furukawa" target="_blank"><img src="img/alexg.jpg" class="pic" /></a>
+          <a href="https://twitter.com/agouaillard" target="_blank"><img src="img/alexg.jpg" class="pic" /></a>
           <h3>Dr Alex Gouaillard</h3>
           <span class="title">WebRTC Processor</span>
           <div class="bio">
