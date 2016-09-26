@@ -273,7 +273,7 @@
           <h3>Chengxi Li</h3>
           <span class="title">Tencent on React</span>
           <div class="bio">
-            <p>Lee is from AlloyTeam, Tencent. &gt;&gt;</p>
+            <p>Lee is part of the AlloyTeam at Tencent, China. &gt;&gt;</p>
             <p>Recently he is working on bootstrapping a live video web-app with React and HLS in order to win over the market in China.</p>
           </div>
         </div> 
