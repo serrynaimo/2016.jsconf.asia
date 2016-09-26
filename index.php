@@ -225,7 +225,7 @@
           <img src="img/fhinkel.jpg" class="bg" />
           <a href="https://twitter.com/fhinkel" target="_blank"><img src="img/fhinkel.jpg" class="pic" /></a>
           <h3>Franziska Hinkelmann</h3>
-          <span class="title">Node Engines</span>
+          <span class="title">Node Engine</span>
           <div class="bio">
             <p>Franziska is a software engineer at Google Germany. &gt;&gt;</p>
             <p>She works on the Chrome V8 team, focusing on anything related to Node.js. &gt;&gt;</p>
@@ -234,37 +234,36 @@
         </div>
 
         <div class="card speaker">
-          <img src="img/cheeaun.jpg" class="bg" />
-          <a href="https://twitter.com/cheeaun" target="_blank"><img src="img/cheeaun.jpg" class="pic" /></a>
+          <img src="img/kahweh.jpg" class="bg" />
+          <img src="img/kahweh.jpg" class="pic" />
           <h3>KahWeh Teng</h3>
-          <span class="title">Kopi Hacker</span>
+          <span class="title">Machine whistler</span>
           <div class="bio">
-            <p>Chee Aun is a Front-End Engineer from Malaysia, and currently based in Singapore. &gt;&gt;</p>
-            <p>He enjoys working on many side projects, like HackerWeb, Life and BusRouter SG. &gt;&gt;</p>
-            <p>He also organises KopiJS, a casual social gathering for engineers, designers and makers in Singapore.</p>
+            <p>KahWeh is a Singaporean web technologist in the ad industry and is living in San Francisco.</p>
           </div>
         </div>
 
         <div class="card speaker">
-          <img src="img/lian.jpg" class="bg" />
-          <a href="https://twitter.com/Chimney42" target="_blank"><img src="img/lian.jpg" class="pic" /></a>
+          <img src="img/marcocecconi.jpg" class="bg" />
+          <a href="https://twitter.com/sklivvz" target="_blank"><img src="img/marcocecconi.jpg" class="pic" /></a>
           <h3>Marco Cecconi</h3>
-          <span class="title">Machine learned</span>
+          <span class="title">Question AND Answer</span>
           <div class="bio">
-            <p>Lian is working as Jack of all trades at the interface between development and support. &gt;&gt;</p>
-            <p>She completed her apprenticeship as IT specialist in early 2014, after a failed attempt at becoming a lawyer.</p>
+            <p>Marco is a developer in the core​ Q-and-A​ team of Stack Overflow since 2013. &gt;&gt;</p>
+            <p>While not creating bugs and fixing them in a hurry, he enjoys blogging on sklivvz.com, covering computers topics from transistors to tech leadership. &gt;&gt;</p>
+            <p>He frequently speaks on architecture, engineering and Stack Overflow.</p>
           </div>
         </div>
 
         <div class="card speaker">
-          <img src="img/yosuke.jpg" class="bg" />
-          <a href="https://twitter.com/yosuke_furukawa" target="_blank"><img src="img/yosuke.jpg" class="pic" /></a>
+          <img src="img/alexg.jpg" class="bg" />
+          <a href="https://twitter.com/yosuke_furukawa" target="_blank"><img src="img/alexg.jpg" class="pic" /></a>
           <h3>Dr Alex Gouaillard</h3>
-          <span class="title">Node Next</span>
+          <span class="title">WebRTC Processor</span>
           <div class="bio">
-            <p>Yosuke leads the Japan Node.js User Group and is an organizer of NodeFest. &gt;&gt;</p>
-            <p>Yosuke has an interest in ESNext, new protocols like HTTP/2, webrtc, and testing tools. &gt;&gt;</p>
-            <p>He built the tower-of-babel, ES2015 tutorial tool and is now getting into universal web applications using React and Redux.</p>
+            <p>As a member of the W3C, IETF and IMTC, Dr Alex is an active participant in the WebRTC community. &gt;&gt;</p>
+            <p>Among other projects he co-led the WebRTC-in-Webkit project and maintains his "WebRTC by Dr Alex" blog with the goal to reduce the barrier of entry into the field for students and individual developers. &gt;&gt;</p>
+            <p>He holds a Ph.D. in signal, image and video processing at the French INSA and in his free-time helps his previous students from Harvard Medical and Pasteur as a Scientific Advisor to develop in-silico modeling solutions to complement trials of cancer drugs.</p>
           </div>
         </div>
 
@@ -275,7 +274,7 @@
           <span class="title">Tencent on React</span>
           <div class="bio">
             <p>Lee is from AlloyTeam, Tencent. &gt;&gt;</p>
-            <p>Recently he is working on how to bootstrap a live video webapp at ease with React and HLS in order to win the market in China.</p>
+            <p>Recently he is working on bootstrapping a live video web-app with React and HLS in order to win over the market in China.</p>
           </div>
         </div> 
       </div>
@@ -353,7 +352,7 @@
   ga('send', 'pageview');
 
 
-   CountDownTimer('Sat, 24 Sep 2016 00:00:00 +0800', 'countdown');
+   CountDownTimer('Mon, 24 Oct 2016 00:00:00 +0800', 'countdown');
 
     function CountDownTimer(dt, id)
     {
