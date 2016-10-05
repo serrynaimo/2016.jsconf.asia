@@ -75,14 +75,14 @@
         </div>
 
         <div class="card speaker">
-          <img src="img/timpietrusky.jpg" class="bg" />
-          <a href="https://twitter.com/TimPietrusky" target="_blank"><img src="img/timpietrusky.jpg" class="pic" /></a>
-          <h3>Tim Pietrusky</h3>
-          <span class="title">Disco Nerd</span>
+          <img src="img/ruthjohn.jpg" class="bg" />
+          <a href="https://twitter.com/rumyra" target="_blank"><img src="img/ruthjohn.jpg" class="pic" /></a>
+          <h3>Ruth John</h3>
+          <span class="title">MIDI Controller</span>
           <div class="bio">
-            <p>By day Tim Pietrusky is the CTO of Synoa GmbH and lives near Frankfurt (Main) in Germany. &gt;&gt;</p>
-            <p>At night he and his cat Kazzo work on NERDDISCO to create live music visualizations with JavaScript. &gt;&gt;</p>
-            <p>He contributed Kittify to the &quot;only FUN open-source projects&quot;-community bullgit.</p>
+            <p>Ruth is a web technologist and Google Developer Expert. &gt;&gt;</p>
+            <p>She likes to educate people about new web technologies and inspire them to try them, coming up with exciting and engaging ways to use them. &gt;&gt;</p>
+            <p>Her favourite things include interactive audio/visual installations and 80s cartoons, usually at the same time!</p>
           </div>
         </div>
 
