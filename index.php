@@ -76,7 +76,7 @@
 
         <div class="card speaker">
           <img src="img/ruthjohn.jpg" class="bg" />
-          <a href="https://twitter.com/rumyra" target="_blank"><img src="img/ruthjohn.jpg" class="pic" /></a>
+          <a href="https://twitter.com/r" target="_blank"><img src="img/ruthjohn.jpg" class="pic" /></a>
           <h3>Ruth John</h3>
           <span class="title">MIDI Controller</span>
           <div class="bio">
@@ -277,6 +277,84 @@
             <p>Recently he is working on bootstrapping a live video web-app with React and HLS in order to win over the market in China.</p>
           </div>
         </div> 
+
+      </div>
+      <br/><br/>
+      <div class="cards">
+
+
+        <div class="card speaker">
+          <img src="img/myles.jpg" class="bg" />
+          <a href="https://twitter.com/thealphanerd" target="_blank"><img src="img/myles.jpg" class="pic" /></a>
+          <h3>Myles Borins</h3>
+          <span class="title">Alpha Node</span>
+          <div class="bio">
+            <p>Myles is an Artist, musician, developer, and inventor. &gt;&gt;</p>
+            <p>He works for IBM spending most of his time contributing to the node.js ecosystem. &gt;&gt;</p>
+            <p>He graduated with a Master of Music Science and Technology from c.c.r.m.a. a.k.a the center for computer research in music and acoustics</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/ashwin.jpg" class="bg" />
+          <img src="img/ashwin.jpg" class="pic" />
+          <h3>Ashwin Vombatkere</h3>
+          <span class="title">Enterprise JS</span>
+          <div class="bio">
+            <p>Ashwin is a Lead Consultant developer with ThoughtWorks. &gt;&gt;</p>
+            <p>He started his journey over 12 years ago as a developer helping to build enterprise scale Java applications for the leasing industry. &gt;&gt;</p>
+            <p>Over the years, he has experienced Ruby and had an extended tryst with .NET building micro services for the rail industry. &gt;&gt;</p>
+            <p>Over the last few years he has spent most of his time building single page JavaScript applications touching Angular, Node and Agile delivery for large enterprises.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/eugene.jpg" class="bg" />
+          <img src="img/eugene.jpg" class="pic" />
+          <h3>Eugene Cheah</h3>
+          <span class="title">Graphics Processing Unit 1</span>
+          <div class="bio">
+            <p>In his free time, Eugene is constantly tinkering around with technology. From GPU.JS coding, reading up HTML5 specifications, experimenting with his own programming language, etc. For fun. &gt;&gt;</p>
+            <p>In his work time, he runs his own website and mobile applications development company Picoded Pte Ltd that makes apps for others on demand, for profit.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/fazli.jpg" class="bg" />
+          <a href="https://fazli.sapuan.org" target="_blank"><img src="img/fazli.jpg" class="pic" /></a>
+          <h3>Fazli Sapuan</h3>
+          <span class="title">Graphics Processing Unit 2</span>
+          <div class="bio">
+            <p>As a GPU computing and JavaScript enthusiast, Fazli envisioned an easy way to perform GPU inside the browser. &gt;&gt;</p>
+            <p>Thus, working with a few fellow engineers, gpu.js was created as an online platform that could be used to teach parallel computing concepts to beginners. &gt;&gt;</p>
+            <p>He is presently working as a software engineer at Garena, and enjoys hacking random stuff together in his free time.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/jan.jpg" class="bg" />
+          <a href="https://twitter.com/janjongboom" target="_blank"><img src="img/jan.jpg" class="pic" /></a>
+          <h3>Jan Jongboom</h3>
+          <span class="title">ARMed AND Ready</span>
+          <div class="bio">
+            <p>Jan keeps following us around. He is a working as Developer Evangelist IoT for ARM, and always on the lookout on how to connect the web with the real world. &gt;&gt;</p>
+            <p>He loves doing unexpected stuff with sensors, flying drones from the browser, and breaking phones. &gt;&gt;</p>
+            <p>Before ARM he was a core contributor to Firefox OS, and he wrote hundreds of patches to various open source projects. &gt;&gt;</p>
+            <p>He's also a Google Developer Expert for Web technologies.</p>
+          </div>
+        </div>
+
+        <div class="card speaker">
+          <img src="img/simon.jpg" class="bg" />
+          <a href="https://twitter.com/simon_swain" target="_blank"><img src="img/simon.jpg" class="pic" /></a>
+          <h3>Simon Swain</h3>
+          <span class="title">Maze Rat</span>
+          <div class="bio">
+            <p>Simon has been building the web since the beginning, somehow surviving through it's many iterations. &gt;&gt;</p>
+            <p>Currently he is building cloud services for connected devices.</p>
+          </div>
+        </div> 
+
       </div>
 
 
