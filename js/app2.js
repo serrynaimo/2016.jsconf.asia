@@ -63,21 +63,6 @@ $("#subscribeForm input[type='email']").on("focus", function() {
 });
 
 
-$(".speaker").mouseenter(function(event) {
-	var $bio = $(this).find('.bio');
-	var strings = $bio.data('strings') || [];
-	if(!strings.length) {
-		$bio.children().each(function () {
-			console.log($(this).text());
-			strings.push($(this).text());
-		});
-		$bio.data('strings', strings)
-	}
-	$bio.typed({
-		strings: strings,
-		backSpeed: -5000,
-		backDelay: 1600,
-		showCursor: false,
-		typeSpeed: -100
-	});
+$('.speaker').click(function(e) {
+   $(e.currentTarget).toggleClass('open');
 });

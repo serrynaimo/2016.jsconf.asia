@@ -20,7 +20,7 @@ body {
 
 
 #subscribeForm {
-  margin: 40px auto;
+  margin: 40px auto 0;
 	width: 500px;
   height: 80px;
 	display: block;
@@ -187,7 +187,7 @@ a.skip:hover {
 }
 
 #about {
-  margin-bottom: 300px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
@@ -213,7 +213,7 @@ p {
   text-decoration: none;
 }
 
-#about a.button {
+a.button {
   display: inline-block;
   position: relative;
   margin: 0 auto;
@@ -226,7 +226,7 @@ p {
   font-size: 1em;
 }
 
-#about a.button:after {
+a.button:after {
   content: "GET YOUR TICKETS";
   z-index: 7;
   padding: 10px 30px;
@@ -241,7 +241,7 @@ p {
   right: 0;
 }
 
-#about a.button:before {
+a.button:before {
   content: "";
   position: absolute;
   background: #FFED2A;
@@ -255,10 +255,10 @@ p {
   transition: left 0.07s ease-in;
 }
 
-#about a.button:hover:before {
+a.button:hover:before {
   left: 0;
 }
-#about a.button:hover:after {
+a.button:hover:after {
   color: #000;
 }
 
@@ -268,6 +268,7 @@ p {
 
 
 #updates {
+  clear: both;
   padding-bottom: 50px;
 }
 
@@ -282,113 +283,198 @@ p {
   color: #ddd;
 }
 
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+
+#sponsors p {
+  text-align: center;
+  width: auto;
 }
 
-.card {
-  position: relative;
-  height: 185px;
-  width: 500px;
-  display: flex;
-  align-items: center;
-  -webkit-transform: translateZ(1px);
-  -moz-transform: translateZ(1px);
-  transform: translateZ(1px);
-  perspective-origin: 50% 50%;
-  perspective: 800px;
+#sponsors img {
+  height: 30px;
+  opacity: 0.7;
+  margin: 15px 25px 0;
+  vertical-align: middle;
 }
 
-.speaker {
-  overflow: hidden;
-}
-
-.speaker .bg {
-  position: absolute;
-  width: 100%;
-  margin: -155px 0;
-  -webkit-filter: blur(15px);
-  -moz-filter: blur(15px);
-  filter: blur(15px);
-  transition: all .2s ease-out;
-  opacity: 0.1;
-}
-
-.speaker .pic {
-  position: absolute;
-  top: 20px;
-  left: 30px;
-  -webkit-transform: rotateY(14deg);
-  -webkit-transform-origin: 170% 50%;
-  -moz-transform: rotateY(14deg);
-  -moz-transform-origin: 170% 50%;
-  transform: rotateY(14deg);
-  transform-origin: 170% 50%;
-  backface-visibility: hidden;
-  transition: all .2s ease-out;
-  width: 140px;
-  height: 140px;
-}
-
-.speaker h3 {
-  font-family: 'Doppio One', 'Helvetica Neue';
-  font-size: 1.5em;
-  text-transform: uppercase;
-  color: #fff !important;
-  position: absolute;
-  bottom: 68px;
-  left: 195px;
-  width: 250px;
-  transition: all .2s ease-out;
-}
-
-.speaker .title {
-  position: absolute;
-  font-family: 'Doppio One', 'Helvetica Neue';
-  text-transform: uppercase;
-  top: 100px;
-  left: 215px;
-  width: 240px;
-  color: #888;
-  transition: all .2s ease-out;
-}
-
-.speaker .bio p {
-  display: none;
-}
-
-.speaker .bio {
-  opacity: 0;
-  font-family: 'Consolas', 'Courier', monospace;
-  color: #eee;
-  margin-left: 195px;
-  width: 280px;
+#sponsors a:hover img {
+  opacity: 0.9;
 }
 
 
-.speaker:hover .bg {
-  opacity: 0.2;
+
+
+
+#speakers {
+  padding-top: 60px;
 }
 
-.speaker:hover .pic {
-  -webkit-transform: rotateY(24deg);
-  -moz-transform: rotateY(24deg);
-  transform: rotateY(24deg);
+#speakers > .day + .day {
+  margin-bottom: 120px;
 }
 
-.speaker:hover h3 {
-  opacity: 0;
+#speakers .day {
+    margin-bottom: 110px;
+    position: relative;
+    float: none;
 }
 
-.speaker:hover .title {
-  opacity: 0;
+#speakers .day > h4 {
+    color: #555;
+    font-size: .9em;
+    padding: 15px;
+    margin: 0 auto;
+    width: 160px;
+    position: relative;
+    left: -165px;
+    transform: rotate(-90deg);
+    transform-origin: 33% -18%;
+    text-transform: uppercase;
 }
 
-.speaker:hover .bio {
-  opacity: 1;
+
+#speakers .speaker {
+    margin: 20px auto 0;
+    width: 480px;
+    position: relative;
+    clear: left;
+    min-height: 65px;
 }
+
+#speakers .speaker {
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+
+#speakers .speaker:before {
+    content: "";
+    position: absolute;
+    left: 70px;
+    top: -11px;
+    bottom: -11px;
+    background: #333;
+    z-index: 10;
+    width: 10px;
+}
+
+#speakers .speaker > span:not(.img):after {
+    content: "";
+    position: absolute;
+    z-index: 13;
+    left: 76px;
+    top: -5px;
+    padding: 5px;
+    margin: -6px;
+    background: #111;
+    transition: all .1s ease-out;
+}
+
+#speakers .speaker > span:not(.img) {
+    float: left;
+    width: 60px;
+    margin: 4px 32px 0 0;
+    color: #fff;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+#speakers .speaker > a {
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin-right: 16px;
+}
+
+
+#speakers .speaker > img {
+    float: left;
+    margin-top: 0;
+    height: 70px;
+    width: 70px;
+    margin-right: 13px;
+}
+
+#speakers .speaker > h3 {
+    color: #256BC4;
+    margin-top: 2px;
+    font-size: 1.1em;
+    width: 460px;
+    position: relative;
+}
+
+#speakers .speaker > h4 {
+    margin: -14px 0 0 176px;
+    text-align: left;
+    font-weight: 200;
+    color: #fff;
+    font-size: .9em;
+}
+
+#speakers .speaker.break > h4 {
+    margin-left: 94px;
+}
+
+#speakers .speaker:not(.break):hover > span:not(.img):after,
+#speakers .speaker.open:not(.break) > span:not(.img):after {
+    background: #FFED2A;
+}
+
+#speakers .speaker > p a {
+    color: #fff;
+}
+
+#speakers .speaker > p {
+    clear: left;
+    width: 380px;
+    padding-top: 6px;
+    margin-left: 93px;
+    font-size: .9em;
+    line-height: 1.2em;
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity .3s ease-out;
+}
+
+#speakers .speaker > p + p {
+    font-style: italic;
+}
+
+#speakers .speaker.open > p {
+    opacity: 1;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#speakers .speaker img {
+    height: 70px;
+    width: 70px;
+  box-shadow: -1px 0 3px rgba(0,0,0,.2);
+}
+
+#speakers .speaker h4 a {
+    font-size: .9em;
+    color: #9AE0FF;
+    text-transform: none;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+#speakers .speaker h3 a:hover {
+    color: #fff;
+}
+
+#speakers .speaker.break {
+    cursor: default;
+}
+
+#sponsors {
+  clear: both;
+  text-align: center;
+}
+
 
 
 
