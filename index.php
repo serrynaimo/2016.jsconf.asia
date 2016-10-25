@@ -41,7 +41,7 @@
 
       <p>
         Sponsored by<br/><br/>
-        <a href="https://www.sc.com/en/careers/" target="_blank"><img src='img/scb.svg' alt='Standard Chartered Bank' style='margin: 0 auto; width: 200px;'/></a>
+        <a href="https://www.sc.com/technology/" target="_blank"><img src='img/scb.svg' alt='Standard Chartered Bank' style='margin: 0 auto; width: 200px;'/></a>
       </p>
     </section>
 
