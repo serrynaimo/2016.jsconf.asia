@@ -380,8 +380,9 @@
                 <img src="img/steven.jpg" />
                 <h3>The Opportunities in Tech</h3>
                 <h4>Steven Gong, Hired</h4>
+                <p></p>
                 <p>
-                  
+                  Steven Gong is the Market Manager for Singapore at Hired, an online marketplace that brings together top tech talent with the companies who want to hire them. Steven led the expansion of San Francisco-based Hired to Singapore, and prior to Hired he worked at tech startups in Singapore for 8 years including as a founder, and started his career in management consulting.
                 </p>
               </div>
               <div class="speaker break">
