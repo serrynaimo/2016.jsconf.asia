@@ -176,18 +176,45 @@
               Khang works as React Native developer at Employment Hero by day. He is a JavaScript hacker &amp; open source contributor by night. He organizes the React Native facebook community group for Vietnam.
             </p>
           </div>
-          <!--<div class="speaker">
+          <div class="speaker">
             <span>2:30 PM</span>
-            <img src="img/thomas.jpg" />
+            <img src="img/tyson.jpg" />
+            <img src="img/hemanth.jpg" />
             <h3>Panel: Application Programmable Interfaces in 2017</h3>
-            <h4>Thomas Gorissen <a href="https://twitter.com/serrynaimo" target="_blank">@serrynaimo</a></h4>
+            <h4>
+              Tyson Hackwood <a href="https://twitter.com/tysonius" target="_blank">@tysonius</a><br/>
+              Hemanth HM <a href="https://twitter.com/GNUmanth" target="_blank">@GNUmanth</a>
+            </h4>
             <p>
-              
+              Let’s talk developer programs, standards, scale, SDKs, REST, good and bad practices, documentation, security, and regulation. Let's talk APIs.
             </p>
             <p>
-              
+              Tyson has been actively involved in both Online Payments and Mobile
+              Payments for 15 Years, with extensive experience working with both
+              traditional and next generation businesses. He has worked with many
+              of these organisations through his time in Braintree, PayPal and
+              Vodafone.<br/>
+              He is excited by projects and businesses that are trying to enhance
+              ‘mobile’ experiences and drive commerce by using the ‘invisible
+              payments’ like Uber, Hotel Quickly, Hailo and many others in the Asia
+              region.<br/>
+              Currently expanding the Asia footprint of Braintree, is involved with
+              expanding access to the traditional payment methods as well as the
+              emerging payment technologies. Is an avid mentor and educationalist,
+              spending much of his time explaining ‘payments’ and how they can be
+              used to grow commerce. Related to this is his love of ‘start-up’ t-
+              shirts and stickers.<br/><br/>
+              Hemanth ...<br/>
+              is a computer polyglot CLI, web and unix philosophy <3'r.<br/>
+              works as a Senior software engineer at PayPal Bangalore.<br/>
+              blog's about his experiments and experiences in programming.<br/>
+              contributes to FOSS via  Github and is a part of the Yeoman, Webpack and many other notable teams.<br/>
+              curates  Node Module Of The Week,  JSfeatures.in. Coordinates BangaloreJS meetups.<br/>
+              mentors at GeeksKool.<br/>
+              is a community leader at DuckDuckGo and<br/>
+              is a Google Developer Expert.
             </p>
-          </div>//-->
+          </div>
           <div class="speaker break">
               <span>3 PM</span>
               <h3>Refreshments outside</h3>
