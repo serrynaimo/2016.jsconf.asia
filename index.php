@@ -182,8 +182,8 @@
             <img src="img/hemanth.jpg" />
             <h3>Panel: Application Programmable Interfaces in 2017</h3>
             <h4>
-              Tyson Hackwood <a href="https://twitter.com/tysonius" target="_blank">@tysonius</a><br/>
-              Hemanth HM <a href="https://twitter.com/GNUmanth" target="_blank">@GNUmanth</a>
+              Tyson Hackwood, Braintree <a href="https://twitter.com/tysonius" target="_blank">@tysonius</a><br/>
+              Hemanth HM, Paypal <a href="https://twitter.com/GNUmanth" target="_blank">@GNUmanth</a>
             </h4>
             <p>
               Let’s talk developer programs, standards, scale, SDKs, REST, good and bad practices, documentation, security, and regulation. Let's talk APIs.
