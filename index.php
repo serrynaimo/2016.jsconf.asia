@@ -32,7 +32,7 @@
       <p>
         <span style="color: #fff">5 years of Southeast Asia's largest web developer conference</span>
         <br/><br/>
-        Ticket prices increase<br/>
+        JSConf.Asia starts<br/>
         <span id="countdown"></span>
       </p>
       <div>
@@ -580,7 +580,7 @@
   ga('send', 'pageview');
 
 
-   CountDownTimer('Thu, 27 Oct 2016 00:00:00 +0800', 'countdown');
+   CountDownTimer('Fri, 25 Oct 2016 09:00:00 +0800', 'countdown');
 
     function CountDownTimer(dt, id)
     {
