@@ -253,7 +253,7 @@
               <h3>Break</h3>
           </div>
           <div class="speaker">
-            <span>6 PM</span>
+            <span>6-10 PM</span>
             <img src="img/ruthjohn.jpg" />
             <img src="img/martin.jpg" />
             <img src="img/mattmckegg.jpg" />
@@ -482,7 +482,7 @@
                 </p>
               </div>
               <div class="speaker break">
-                <span>7 PM</span>
+                <span>7-11 PM</span>
                 <h3>5 year anniversary party</h3>
                 <h4>at The Great Escape, Golden Mile Complex</h4>
               </div>
