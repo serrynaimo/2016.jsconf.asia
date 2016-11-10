@@ -497,6 +497,7 @@
       </p>
       <a href="https://carousell.com" target="_blank"><img src="img/carousell.png" style="height: 26px;" /></a>
       <a href="https://paypal.com" target="_blank"><img src="img/paypal.png" /></a>
+      <a href="http://www.singaporepower.com.sg/irj/portal?NavigationTarget=navurl://acaf1b918fe1d6c08ca5ccb9d52a2ee6&windowId=undefined" target="_blank"><img src="img/sp.png" style="height: 45px;" /></a>
       <a href="https://braintreepayments.com" target="_blank"><img src="img/braintree.png" /></a>
       <a href="https://hired.com" target="_blank"><img src="img/hired.png" /></a>
       <a href="https://mozilla.com" target="_blank"><img src="img/mozilla.png" /></a>
