@@ -5,11 +5,14 @@ body {
 
 body > nav {
 	position: fixed;
+	box-shadow: inset 0 8px 8px rgba(0,0,0,0.3);
+	background: #f8f8f8;
 	width: 100px;
-	top: 0;
+	top: -10px;
 	left: 0;
-	bottom: 0;
+	bottom: -10px;
 	text-align: center;
+	padding-top: 10px;
 }
 
 nav img {
@@ -18,9 +21,10 @@ nav img {
 }
 
 body > section {
-	width: 400px;
+	width: 360px;
 	margin: 0 auto;
-	padding-left: 100px;
+	padding-left: 120px;
+	padding-right: 20px;
 	text-align: center;
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -32,7 +36,7 @@ section img {
 hr {
 	border: 0;
 	border-bottom: 1px solid silver;
-	margin: 100px 20px;
+	margin: 100px;
 }
 
 h2 {
