@@ -35,8 +35,8 @@ section img {
 
 hr {
 	border: 0;
-	border-bottom: 1px solid silver;
-	margin: 100px;
+	border-bottom: 1px solid gray;
+	margin: 140px 80px;
 }
 
 h2 {
@@ -49,6 +49,7 @@ h3 {
 	font-size: 1em;
 	margin-bottom: 2px;
 	font-weight: 500;
+	text-transform: uppercase;
 }
 
 h3 + p {

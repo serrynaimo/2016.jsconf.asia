@@ -74,6 +74,63 @@
 		<hr/>
 
 		<div>
+			<a name="nuri"></a>
+
+			<p>Ground Level</p>
+			<img src="nuri.png" alt="Nuri's" />
+
+			<h2>Lunch </h2>
+			<h3>Special Nasi Campur Value Lunch Set </h3>
+			<p>Choice of Wagyu Rendang or Ayam Lemak</p>
+			<p>with Classic Tumis Kacang Panjang, Ikan Billis, Spicy Hijau Chili &amp; clear soup</div>
+			<p>with choice of Apple, Mango, Orange, Cranberry, Lime or Pineapple juice</p>
+			<p>Pulut Hitam Dessert (without coconut ice-cream)	</p>
+
+			<span>25</span>
+
+		</div>
+	
+		<hr/>
+
+		<div>
+			<a name="dazzling"></a>
+
+			<p>Ground Level</p>
+			<img src="dazzling.png" alt="Dazzling café" />
+
+			<h2>Food Options</h2>
+			<h3>Mentaiko with Baby Scallops</h3>
+
+			<span>35</span>
+
+			<h3>Fregola Sarde Grande Pasta (V)</h3>
+
+			<span>35</span>
+
+			<h3>Seafood Sausage Pot Pie</h3>
+
+			<span>30</span>
+
+			<h3>Dazzling Potato Doughnut with Bratwurst Filling</h3>
+
+			<span>35</span>
+			 
+			<p>all options include choice of Iced Tea</p>
+
+			<h2>Drinks</h2>
+
+			<h3>ALL ICED TEAs</h3>
+
+			<span>10</span>
+
+			<h3>ALL SLUSHIES</h3>
+
+			<span>15</span>
+		</div>
+
+		<hr/>
+
+		<div>
 			<a name="equi"></a>
 
 			<p>Ground Level</p>
