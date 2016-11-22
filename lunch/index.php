@@ -17,7 +17,7 @@
 	<meta property="og:title" content="CSSConf.Asia and JSConf.Asia Lunch Partners"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="https://2016.jsconf.asia/lunch"/>
-	<meta property="og:image" content="https://2016.jsconf.asia/assets/og_jsconfasia.png"/>
+	<meta property="og:image" content="https://2016.jsconf.asia/lunch/lunchpartner.png"/>
 	<meta property="og:site_name" content="JSConf.Asia"/>
 	<meta property="og:description" content="CSSConf.Asia and JSConf.Asia Lunch Partners at the Capitol Piazza 2016"/>
 	<meta name="title" content="CSSConf.Asia and JSConf.Asia Lunch Partners"/>
