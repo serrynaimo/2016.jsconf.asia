@@ -219,8 +219,8 @@
 			<img src="tap.png" alt="Tap" />
 
 			<h2>Lunch</h2>
-			<h3>Mediterranean Wrap (V)  </h3>
-			<p>Veggies galore of roasted eggplant, capsicums, wild mushrooms, onion, stewed tomatoes and nestum greens all in a wrap</p>
+			<h3>Perfect Pastrami</h3>
+			<p>Smoky, super seasoned pastrami served in sourdough bread with gherkins and fresh salad and cashew nuts</p>
 			<span>20</span>
 			<h3>Chicken Tandoori Wrap  </h3>
 			<p>A spicy and savoury wrap of sumptuous roasted chicken, simmered in yoghurt and spices</p>
