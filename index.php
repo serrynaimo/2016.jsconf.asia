@@ -32,11 +32,10 @@
       <p>
         <span style="color: #fff">5 years of Southeast Asia's largest web developer conference</span>
         <br/><br/>
-        JSConf.Asia starts<br/>
-        <span id="countdown"></span>
+        Thank you for supporting JSConf.Asia<br/>
       </p>
       <div>
-        <a href="https://www.eventnook.com/event/devfestasia2016/home" class="button">Get your tickets</a>
+        <a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshFn7VjMHjenn8niUTYNe8O7" class="button">Watch the videos!</a>
       </div>
 
       <p>
@@ -581,7 +580,7 @@
   ga('send', 'pageview');
 
 
-   CountDownTimer('Fri, 25 Nov 2016 09:00:00 +0800', 'countdown');
+  // CountDownTimer('Fri, 25 Nov 2016 09:00:00 +0800', 'countdown');
 
     function CountDownTimer(dt, id)
     {
