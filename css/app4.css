@@ -227,7 +227,7 @@ a.button {
 }
 
 a.button:after {
-  content: "GET YOUR TICKETS";
+  content: "WATCH THE VIDEOS!";
   z-index: 7;
   padding: 10px 30px;
   color: #fff;

@@ -9,7 +9,7 @@
 	<meta charset="UTF-8">
 	<title>JSConf.Asia Singapore 2016</title>
 	<link href='//fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/app3.css" />
+	<link rel="stylesheet" type="text/css" href="css/app4.css" />
 	<link rel="shortcut icon" href="favicon.png" >
 	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
 	<meta name="viewport" content="width=500,max-width=500" />
