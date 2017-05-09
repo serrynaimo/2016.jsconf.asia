@@ -1,9 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Doppio+One');
 
 .wufoo input, .wufoo textarea {
-  border: 0;
+  font-size: 1.5em !important;
+  padding: 5px !important;
 }
 
 .wufoo h2, .wufoo h3, .wufoo h4 {
-  font-family: 'Doppio One';
+  font-family: 'Doppio One' !important;
+}
+
+.wufoo ul li {
+    padding: 20px 0 !important;
+}
+
+.wufoo label {
+  padding-bottom: 10px !important;
+}
+
+input[type='submit'] {
+  padding: 10px 15px !important;
+  background: #478fe2 !important;
+  border-radius: 2px;
+  color: white !important;
+  font-family: 'Doppio One' !important;
 }
