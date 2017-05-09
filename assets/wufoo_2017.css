@@ -13,14 +13,15 @@
     padding: 20px 0 !important;
 }
 
-.wufoo label {
+.wufoo label, .wufoo legend {
   padding-bottom: 10px !important;
 }
 
 input[type='submit'] {
-  padding: 10px 15px !important;
+  padding: 10px 30px !important;
   background: #478fe2 !important;
   border-radius: 2px;
   color: white !important;
   font-family: 'Doppio One' !important;
+  border: 0 !important
 }
