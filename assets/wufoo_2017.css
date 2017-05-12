@@ -14,8 +14,8 @@
   background-position: bottom right;
 }
 
-.container {
-
+.wufoo .info div {
+  font-weight: 300 !important;
 }
 
 .wufoo {
