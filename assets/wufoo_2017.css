@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Doppio+One');
 
+.wufoo #logo a {
+  background-size: contain !important;
+}
+
 .wufoo input, .wufoo textarea {
   font-size: 1.5em !important;
   padding: 5px !important;
