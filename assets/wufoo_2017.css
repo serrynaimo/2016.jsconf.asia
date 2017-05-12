@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Doppio+One');
 
-.wufoo #logo a {
+#logo a {
   background-size: contain !important;
 }
 
