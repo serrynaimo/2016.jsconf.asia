@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Doppio+One');
 
 #container {
-  font-size: 1.2em;
   width: 720px !important;
 }
 
@@ -20,7 +19,7 @@
 
 .wufoo {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .wufoo input, .wufoo textarea {
