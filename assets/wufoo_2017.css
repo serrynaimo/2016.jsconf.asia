@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Doppio+One');
 
+body {
+  margin: 0 !important;
+}
+
 #container {
   width: 720px !important;
+  border: 0 !important;
 }
 
 #header.info {
