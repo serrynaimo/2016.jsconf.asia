@@ -1,12 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Doppio+One');
 
+#container {
+  font-size: 1.2em;
+}
+
+#header.info {
+  margin-top: -65px;
+}
+
 #logo a {
-  background-size: contain !important;
+  background-size: cover !important;
+  background-position: bottom right;
+}
+
+.container {
+  width: 720px !important;
+}
+
+.wufoo {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 1.2em;
 }
 
 .wufoo input, .wufoo textarea {
   font-size: 1.5em !important;
   padding: 5px !important;
+  border: 1px solid #444 !important;
+  border-radius: 3px !important;
 }
 
 .wufoo h2, .wufoo h3, .wufoo h4 {
