@@ -7,16 +7,21 @@
       xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
 	<meta charset="UTF-8">
-	<title>Call for Speakers - JSConf.Asia Singapore</title>
-	<link rel="shortcut icon" href="https://2016.jsconf.asia/favicon.png" >
-	<meta property="og:title" content="Call for Speakers - JSConf.Asia Singapore"/>
+	<title>JSConf.Asia Singapore 2016</title>
+	<link href='//fonts.googleapis.com/css?family=Doppio+One|Open+Sans:100' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/app4.css" />
+	<link rel="shortcut icon" href="favicon.png" >
+	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
+	<meta name="viewport" content="width=500,max-width=500" />
+	<?php } ?>
+	<meta property="og:title" content="JSConf.Asia - 25+26 Nov 2016, Singapore"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="https://contribute.jsconf.asia/"/>
-	<meta property="og:image" content="https://2016.jsconf.asia/assets/og_wufoo_2017.jpg"/>
+	<meta property="og:url" content="https://2016.jsconf.asia/"/>
+	<meta property="og:image" content="https://2016.jsconf.asia/assets/og_jsconfasia.png"/>
 	<meta property="og:site_name" content="JSConf.Asia"/>
-	<meta property="og:description" content="We want to celebrate the creative and diligent work of the developer community in Southeast-Asia and beyond and do so with awfully educational, inspiring, entertaining and inclusive events. Recommend a contributor!"/>
-	<meta name="title" content="Call for Speakers - JSConf.Asia Singapore"/>
-	<meta name="description" content="We want to celebrate the creative and diligent work of the developer community in Southeast-Asia and beyond and do so with awfully educational, inspiring, entertaining and inclusive events. Recommend a contributor!"/>
+	<meta property="og:description" content="5 years of Southeast Asia's largest web developer conference. Spread the word. Follow us on Twitter @jsconfasia"/>
+	<meta name="title" content="JSConf.Asia - 25+26 Nov 2016, Singapore"/>
+	<meta name="description" content="5 years of Southeast Asia's largest web developer conference. Spread the word. Follow us on Twitter @jsconfasia"/>
 </head>
 <body>
   <section id="intro"></section>
