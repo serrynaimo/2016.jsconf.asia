@@ -24,7 +24,7 @@
 	<meta name="description" content="5 years of Southeast Asia's largest web developer conference. Spread the word. Follow us on Twitter @jsconfasia"/>
 </head>
 <body>
-  <a href="https://2018.jsconf.asia" id="thisyear" style="border-radius: 5px 0 0 5px; -webkit-transition: all 1s ease-out; -moz-transition: all 1s ease-out; transition: all 1s ease-out; border-left: 10px solid #c7950a; z-index: 99999; position: fixed; color: white; text-decoration: none; bottom: 40px; right: -400px; width: 320px; padding: 20px 30px; background: rgba(0,0,0,0.9); box-shadow: 3px 3px 5px rba(0,0,0,0.5);">
+  <a href="https://2018.jsconf.asia" id="thisyear" style="-webkit-transition: all 1s ease-out; -moz-transition: all 1s ease-out; transition: all 1s ease-out; border-left: 10px solid #FFED2A; z-index: 99999; position: fixed; color: white; text-decoration: none; bottom: 40px; right: -380px; width: 300px; padding: 20px 30px; background: rgba(0,0,0,0.9); box-shadow: 3px 3px 5px rba(0,0,0,0.5);">
       <b>JSConf.Asia is back again in 2018!</b>
       Check it out!
   </a>
@@ -509,7 +509,7 @@
 
 
       <br/><br/><br/>
-       <a href="https://www.eventnook.com/event/devfestasia2016/home" class="button">Get your tickets</a><br/>
+       <a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshFn7VjMHjenn8niUTYNe8O7" class="button">Watch the videos</a><br/>
 
     </section>
 
