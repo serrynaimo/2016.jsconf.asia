@@ -509,7 +509,7 @@
 
 
       <br/><br/><br/>
-       <a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshFn7VjMHjenn8niUTYNe8O7" class="button">Watch the videos</a><br/>
+       <a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshFn7VjMHjenn8niUTYNe8O7" class="button">Watch the videos!</a><br/>
 
     </section>
 
